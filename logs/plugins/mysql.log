@@ -1,0 +1,518 @@
+[20:10:37] [WARNING] mysql_connect: no password specified
+[20:10:40] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'samp-server' (0)'
+[20:10:42] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'samp-server' (0)'
+[20:10:44] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'samp-server' (0)'
+[20:10:46] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'samp-server' (0)'
+[20:11:27] [WARNING] mysql_connect: no password specified
+[20:11:30] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'samp-server' (0)'
+[20:11:32] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'samp-server' (0)'
+[20:11:34] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'samp-server' (0)'
+[20:11:36] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'samp-server' (0)'
+[20:16:37] [WARNING] mysql_connect: no password specified
+[20:16:40] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'samp-server' (0)'
+[20:16:42] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'samp-server' (0)'
+[20:16:44] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'samp-server' (0)'
+[20:16:46] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'samp-server' (0)'
+[20:20:55] [WARNING] mysql_connect: no password specified
+[20:20:57] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'login' (0)'
+[20:20:59] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'login' (0)'
+[20:21:02] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'login' (0)'
+[20:21:04] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2005 'Unknown MySQL server host 'login' (0)'
+[20:22:13] [WARNING] mysql_connect: no password specified
+[20:52:58] [WARNING] mysql_connect: no password specified
+[20:53:43] [ERROR] error #1064 while executing query "SELECT 'id' FROM 'usets' WHERE 'name' = 'Mortis_Grave'": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''usets' WHERE 'name' = 'Mortis_Grave'' at line 1
+[20:54:42] [WARNING] mysql_connect: no password specified
+[20:55:53] [ERROR] error #1064 while executing query "SELECT 'id' FROM 'usets' WHERE 'name' = 'Mortis_Grave'": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''usets' WHERE 'name' = 'Mortis_Grave'' at line 1
+[20:59:01] [WARNING] mysql_connect: no password specified
+[20:59:30] [ERROR] error #1054 while executing query "SELECT `id` FROM `usets` WHERE `name` = `Mortis_Grave`": Unknown column 'Mortis_Grave' in 'where clause'
+[21:01:41] [WARNING] mysql_connect: no password specified
+[21:04:52] [WARNING] mysql_connect: no password specified
+[21:23:23] [WARNING] mysql_connect: no password specified
+[21:57:51] [WARNING] mysql_connect: no password specified
+[22:46:41] [WARNING] mysql_connect: no password specified
+[23:33:18] [WARNING] mysql_connect: no password specified
+[23:46:49] [WARNING] mysql_connect: no password specified
+[23:47:19] [WARNING] mysql_connect: no password specified
+[12:42:06] [WARNING] mysql_connect: no password specified
+[12:49:45] [WARNING] mysql_connect: no password specified
+[12:53:32] [WARNING] mysql_connect: no password specified
+[13:42:28] [WARNING] mysql_connect: no password specified
+[13:51:34] [WARNING] mysql_connect: no password specified
+[13:54:54] [WARNING] mysql_connect: no password specified
+[14:03:28] [WARNING] mysql_connect: no password specified
+[14:07:00] [WARNING] mysql_connect: no password specified
+[14:08:46] [WARNING] mysql_connect: no password specified
+[14:59:32] [WARNING] mysql_connect: no password specified
+[15:28:47] [WARNING] mysql_connect: no password specified
+[15:30:52] [WARNING] mysql_connect: no password specified
+[15:55:19] [WARNING] mysql_connect: no password specified
+[15:57:08] [WARNING] mysql_connect: no password specified
+[16:47:53] [WARNING] mysql_connect: no password specified
+[16:48:57] [ERROR] error #1064 while executing query "INSERT INTO `usets` [`name`, `password`, `salt`, `email`, `ref`, `sex`, `skin`, `regdata`, `ipdata`] VALUES ['Ruslan_Valerievitch','CE56DA1BF6C121CF8E31DCFE946CE5965E2D3C1FF86DADE83D7BA274C8A07565', 'If>rSLD{?K', 'lex', '0', '1', '0', '', '']": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[`name`, `password`, `salt`, `email`, `ref`, `sex`, `skin`, `regdata`, `ipdata`]' at line 1
+[16:55:21] [WARNING] mysql_connect: no password specified
+[16:55:58] [ERROR] error #1064 while executing query "INSERT INTO `usets` [`name`, `password`, `salt`, `email`, `ref`, `sex`, `skin`, `regdata`, `ipdata`] VALUES ['Ruslan_Valerievitch','55BB32A01F3D5D707454C10A58E1DE11990F240B64822963B8352F0E26F42887', 'i|Ag[6JxL]', 'fixfix', '0', '1', '0', '', '']": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[`name`, `password`, `salt`, `email`, `ref`, `sex`, `skin`, `regdata`, `ipdata`]' at line 1
+[17:54:26] [WARNING] mysql_connect: no password specified
+[17:55:08] [ERROR] error #1064 while executing query "INSERT INTO `usets` [`name`, `password`, `salt`, `email`, `ref`, `sex`, `regdata`, `ipdata`] VALUES ['Ruslan_Valerievitch','92FC491D8351811C0A025BB44226B562795A26DBF7CE37C00F31210071815988', 'czEJ=bo6U^', 'dmd', '0', '1', '', '']": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[`name`, `password`, `salt`, `email`, `ref`, `sex`, `regdata`, `ipdata`] VALUES ' at line 1
+[18:19:29] [WARNING] mysql_connect: no password specified
+[18:19:42] [ERROR] error #1064 while executing query "INSERT INTO `usets` [`name`, `password`, `salt`, `email`, `ref`, `sex`, `skin` `regdata`, `ipdata`] VALUES ['Ruslan_Valerievitch','966A9B39ED09535FBDA3A9B0D0ACAFB5906E785DF93C3783583A8C8C8BE93E14', 'TK5xSCy5@z', 'ssfsdf', '0', '1', '134', '', '']": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[`name`, `password`, `salt`, `email`, `ref`, `sex`, `skin` `regdata`, `ipdata`] ' at line 1
+[18:38:31] [WARNING] mysql_connect: no password specified
+[18:39:24] [ERROR] error #1064 while executing query "INSERT INTO `usets` [`name`, `password`, `salt`, `email`, `ref`, `sex`, `skin` `regdata`, `ipdata`] VALUES ['Ruslan_Valerievitch','1056339FA78919834D3021121A3E71B7C5C92721C8C44D83A520F259E14AD7FE', 'ND=sia`GN{', 'defdef', '0', '1', '78', '', '']": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[`name`, `password`, `salt`, `email`, `ref`, `sex`, `skin` `regdata`, `ipdata`] ' at line 1
+[18:40:11] [WARNING] mysql_connect: no password specified
+[18:40:43] [ERROR] error #1064 while executing query "INSERT INTO `usets` (`name`, `password`, `salt`, `email`, `ref`, `sex`, `skin` `regdata`, `ipdata`) VALUES ('Ruslan_Valerievitch','AC4C059ADFA59078C26D691C74B77B59A3C5DBEDDB889B1F2EC74EF1430C8B70', 'nHrUXll>T\', 'defdef', '0', '1', '134', '', '')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`regdata`, `ipdata`) VALUES ('Ruslan_Valerievitch','AC4C059ADFA59078C26D691C74B7' at line 1
+[18:49:04] [WARNING] mysql_connect: no password specified
+[18:49:43] [ERROR] error #1064 while executing query "INSERT INTO `usets` (`name`, `password`, `salt`, `email`, `ref`, `sex`, `skin` `regdata`, `ipdata`) VALUES ('Ruslan_Valerievitch','50A5F97EA2D216F33DABAC543CCFD0AFAD194D2DBCDFE9A4AC5C1D99378E890F', 'nU]c{6=mP0', 'defdef', '0', '1', '134', '', '')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`regdata`, `ipdata`) VALUES ('Ruslan_Valerievitch','50A5F97EA2D216F33DABAC543CCF' at line 1
+[18:52:54] [WARNING] mysql_connect: no password specified
+[18:53:35] [ERROR] error #1064 while executing query "INSERT INTO `usets` (`name`, `password`, `salt`, `email`, `ref`, `sex`, `skin` `regdata`, `ipdata`) VALUES ('Ruslan_Valerievitch','F9D7EE17E32AE22F67D4CAD59E1F768543BCEF93AB01D7E7D3466CE58422B315', 'QXtJ|Ecg<b', 'testtesttest', '0', '1', '135', '', '')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`regdata`, `ipdata`) VALUES ('Ruslan_Valerievitch','F9D7EE17E32AE22F67D4CAD59E1F' at line 1
+[19:07:13] [WARNING] mysql_connect: no password specified
+[19:07:54] [ERROR] error #1064 while executing query "INSERT INTO `usets` (`name`, `password`, `salt`, `email`, `ref`, `sex`, `skin` `regdata`, `ipdata`) VALUES ('Ruslan_Valerievitch','AA8BEEC8098D8DF4119BB57CC8DA1998EB6DEDC4F6990A78B4B88ABC94C210D1', 'cGt<|iz|q/', 'testtesttest', '0', '1', '78', '', '')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`regdata`, `ipdata`) VALUES ('Ruslan_Valerievitch','AA8BEEC8098D8DF4119BB57CC8DA' at line 1
+[19:13:38] [WARNING] mysql_connect: no password specified
+[19:13:59] [ERROR] error #1064 while executing query "INSERT INTO `usets` (`name`, `password`, `salt`, `email`, `ref`, `sex`, `skin` `regdata`, `ipdata`) VALUES ('Ruslan_Valerievitch','C32D39497AA8F12B7B277D7E42DB1E404AC87B268C409D837B0BABAABE12B094', '2CaW<hM4i>', 'testestest', '0', '1', '135', '', '')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`regdata`, `ipdata`) VALUES ('Ruslan_Valerievitch','C32D39497AA8F12B7B277D7E42DB' at line 1
+[19:21:01] [WARNING] mysql_connect: no password specified
+[19:28:09] [WARNING] mysql_connect: no password specified
+[20:43:11] [WARNING] mysql_connect: no password specified
+[20:43:46] [ERROR] cache_get_value_name: field 'regip' not found
+[20:44:34] [WARNING] mysql_connect: no password specified
+[20:55:01] [ERROR] cache_get_value_name: field 'regip' not found
+[21:13:41] [WARNING] mysql_connect: no password specified
+[21:15:07] [ERROR] cache_get_value_name: field 'regip' not found
+[21:17:26] [ERROR] cache_get_value_name: field 'regip' not found
+[21:22:55] [WARNING] mysql_connect: no password specified
+[21:24:14] [WARNING] mysql_connect: no password specified
+[21:25:13] [WARNING] mysql_connect: no password specified
+[21:25:38] [ERROR] cache_get_value_name: field 'regip' not found
+[21:28:31] [WARNING] mysql_connect: no password specified
+[21:29:22] [ERROR] cache_get_value_name: field 'regip' not found
+[21:39:33] [WARNING] mysql_connect: no password specified
+[21:48:00] [ERROR] cache_get_value_name: field 'regip' not found
+[22:03:28] [WARNING] mysql_connect: no password specified
+[22:03:30] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[22:03:32] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[22:03:40] [WARNING] mysql_connect: no password specified
+[22:04:22] [ERROR] cache_get_value_name: field 'regip' not found
+[22:39:29] [WARNING] mysql_connect: no password specified
+[22:40:07] [ERROR] cache_get_value_name: field 'regip' not found
+[22:55:27] [WARNING] mysql_connect: no password specified
+[22:58:45] [WARNING] mysql_connect: no password specified
+[23:00:24] [WARNING] mysql_connect: no password specified
+[23:00:45] [ERROR] cache_get_value_name: field 'regip' not found
+[23:07:56] [WARNING] mysql_connect: no password specified
+[23:29:06] [WARNING] mysql_connect: no password specified
+[23:38:58] [ERROR] cache_get_value_name: field 'regip' not found
+[23:45:13] [WARNING] mysql_connect: no password specified
+[00:30:11] [WARNING] mysql_connect: no password specified
+[00:32:38] [WARNING] mysql_connect: no password specified
+[14:19:58] [WARNING] mysql_connect: no password specified
+[14:22:52] [WARNING] mysql_connect: no password specified
+[14:24:09] [WARNING] mysql_connect: no password specified
+[14:52:06] [WARNING] mysql_connect: no password specified
+[14:52:06] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[14:52:06] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[14:52:06] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[14:52:06] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[15:12:51] [WARNING] mysql_connect: no password specified
+[15:12:51] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[15:12:51] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[15:12:51] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[15:12:51] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[15:22:50] [WARNING] mysql_connect: no password specified
+[15:22:50] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[15:22:50] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[15:22:50] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[15:22:50] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[15:31:55] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1044 'Access denied for user 'gs181159'@'%' to database 'login''
+[15:31:55] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1044 'Access denied for user 'gs181159'@'%' to database 'login''
+[15:31:55] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1044 'Access denied for user 'gs181159'@'%' to database 'login''
+[15:31:55] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1044 'Access denied for user 'gs181159'@'%' to database 'login''
+[15:34:15] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'gs181159'@'localhost' (using password: YES)'
+[15:34:15] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'gs181159'@'localhost' (using password: YES)'
+[15:34:15] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'gs181159'@'localhost' (using password: YES)'
+[15:34:15] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'gs181159'@'localhost' (using password: YES)'
+[15:35:52] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1044 'Access denied for user 'gs181159'@'%' to database 'login''
+[15:35:52] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1044 'Access denied for user 'gs181159'@'%' to database 'login''
+[15:35:52] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1044 'Access denied for user 'gs181159'@'%' to database 'login''
+[15:35:52] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1044 'Access denied for user 'gs181159'@'%' to database 'login''
+[15:43:02] [ERROR] cache_get_value_name: field 'regip' not found
+[17:05:26] [ERROR] cache_get_value_name: field 'regip' not found
+[17:07:14] [ERROR] cache_get_value_name: field 'regip' not found
+[19:08:12] [WARNING] mysql_connect: no password specified
+[19:08:12] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[19:08:12] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[19:08:12] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[19:08:12] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1698 'Access denied for user 'root'@'localhost''
+[19:10:51] [ERROR] cache_get_value_name: field 'regip' not found
+[19:11:20] [ERROR] cache_get_value_name: field 'regip' not found
+[19:17:05] [ERROR] cache_get_value_name: field 'regip' not found
+[19:18:09] [ERROR] cache_get_value_name: field 'regip' not found
+[19:21:48] [ERROR] cache_get_value_name: field 'regip' not found
+[23:33:24] [ERROR] cache_get_value_name: field 'regip' not found
+[23:41:53] [ERROR] cache_get_value_name: field 'regip' not found
+[18:29:52] [ERROR] cache_get_value_name: field 'regip' not found
+[18:29:52] [ERROR] cache_get_value_name_int: field 'admin' not found
+[18:29:52] [ERROR] cache_get_value_name_int: field 'money' not found
+[18:36:26] [ERROR] cache_get_value_name: field 'regip' not found
+[22:45:42] [ERROR] cache_get_value_name: field 'regip' not found
+[16:31:19] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'gs181159'@'localhost' (using password: YES)'
+[16:31:20] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'gs181159'@'localhost' (using password: YES)'
+[16:31:21] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'gs181159'@'localhost' (using password: YES)'
+[16:31:22] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'gs181159'@'localhost' (using password: YES)'
+[16:47:18] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'gs181159'@'localhost' (using password: YES)'
+[16:47:19] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'gs181159'@'localhost' (using password: YES)'
+[16:47:20] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'gs181159'@'localhost' (using password: YES)'
+[16:47:21] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1045 'Access denied for user 'gs181159'@'localhost' (using password: YES)'
+[16:48:01] [WARNING] mysql_connect: no password specified
+[18:14:43] [WARNING] mysql_connect: no password specified
+[18:18:47] [WARNING] mysql_connect: no password specified
+[21:47:56] [WARNING] mysql_connect: no password specified
+[21:50:36] [WARNING] mysql_connect: no password specified
+[21:51:20] [ERROR] cache_get_row_count: no active cache
+[21:51:30] [ERROR] cache_get_row_count: no active cache
+[21:57:59] [WARNING] mysql_connect: no password specified
+[21:59:47] [ERROR] cache_get_row_count: no active cache
+[21:59:56] [ERROR] cache_get_row_count: no active cache
+[21:59:59] [ERROR] cache_get_row_count: no active cache
+[22:05:28] [WARNING] mysql_connect: no password specified
+[22:05:55] [ERROR] cache_get_row_count: no active cache
+[22:05:56] [ERROR] cache_get_row_count: no active cache
+[22:05:56] [ERROR] cache_get_row_count: no active cache
+[22:05:57] [ERROR] cache_get_row_count: no active cache
+[22:05:57] [ERROR] cache_get_row_count: no active cache
+[22:05:57] [ERROR] cache_get_row_count: no active cache
+[22:06:18] [ERROR] cache_get_row_count: no active cache
+[22:06:28] [ERROR] cache_get_row_count: no active cache
+[22:07:54] [WARNING] mysql_connect: no password specified
+[22:08:23] [ERROR] cache_get_row_count: no active cache
+[22:27:31] [WARNING] mysql_connect: no password specified
+[22:28:41] [ERROR] cache_get_row_count: no active cache
+[16:18:24] [WARNING] mysql_connect: no password specified
+[16:18:24] [WARNING] mysql_connect: no password specified
+[16:18:26] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:18:26] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:18:28] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:18:30] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:18:32] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:19:13] [WARNING] mysql_connect: no password specified
+[16:19:15] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:19:26] [WARNING] mysql_connect: no password specified
+[16:19:28] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:19:30] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:19:44] [WARNING] mysql_connect: no password specified
+[16:19:46] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:22:13] [WARNING] mysql_connect: no password specified
+[16:22:15] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:26:29] [WARNING] mysql_connect: no password specified
+[16:26:31] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:26:33] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:26:35] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:26:37] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[16:27:52] [WARNING] mysql_connect: no password specified
+[16:31:12] [WARNING] mysql_connect: no password specified
+[16:40:59] [WARNING] mysql_connect: no password specified
+[16:41:21] [ERROR] cache_get_row_count: no active cache
+[16:41:22] [ERROR] cache_get_row_count: no active cache
+[16:41:24] [ERROR] cache_get_row_count: no active cache
+[16:41:32] [ERROR] cache_get_row_count: no active cache
+[17:26:28] [WARNING] mysql_connect: no password specified
+[17:28:56] [WARNING] mysql_connect: no password specified
+[17:31:11] [WARNING] mysql_connect: no password specified
+[17:31:47] [ERROR] error #1064 while executing query "INSERT INTO `usets`(`name`, `password`, `email`, `ref`, `sex`, `skin`, `regdata`, `ipdata`) VALUES ('Mortis_Grave', 'sferasfera, 'rus.gavrish.98@bk.ru', '0', '1', '239', '', '')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rus.gavrish.98@bk.ru', '0', '1', '239', '', '')' at line 1
+[17:37:33] [WARNING] mysql_connect: no password specified
+[17:42:48] [WARNING] mysql_connect: no password specified
+[18:03:32] [WARNING] mysql_connect: no password specified
+[18:03:53] [ERROR] cache_get_value_name: field 'password' not found
+[18:15:27] [WARNING] mysql_connect: no password specified
+[18:15:46] [ERROR] cache_get_value_name: field 'password' not found
+[18:38:42] [WARNING] mysql_connect: no password specified
+[18:39:01] [ERROR] cache_get_value_name: field 'password' not found
+[18:45:04] [WARNING] mysql_connect: no password specified
+[18:45:27] [ERROR] cache_get_value_name: field 'password' not found
+[18:46:20] [WARNING] mysql_connect: no password specified
+[18:46:39] [ERROR] cache_get_value_name: field 'password' not found
+[18:48:10] [WARNING] mysql_connect: no password specified
+[18:48:28] [ERROR] cache_get_value_name: field 'password' not found
+[18:49:44] [ERROR] error #1064 while executing query "INSERT INTO `usets`(`name`, `password`, `email`, `ref`, `sex`, `skin`, `regdata`, `ipdata`) VALUES ('mortis_grave', 'sferasfera, 'rus.gavrish.98@bk.ru', '0', '1', '112', '09.11.2022', '192.168.43.83')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rus.gavrish.98@bk.ru', '0', '1', '112', '09.11.2022', '192.168.43.83')' at line 1
+[18:50:47] [WARNING] mysql_connect: no password specified
+[18:51:23] [ERROR] error #1064 while executing query "INSERT INTO `usets`(`name`, `password`, `email`, `ref`, `sex`, `skin`, `regdata`, `ipdata`) VALUES ('mortis_grave', 'sferasfera, 'rus.fjfj@bk.ru', '0', '1', '135', '09.11.2022', '192.168.43.83')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rus.fjfj@bk.ru', '0', '1', '135', '09.11.2022', '192.168.43.83')' at line 1
+[18:52:46] [WARNING] mysql_connect: no password specified
+[18:53:33] [ERROR] error #1064 while executing query "INSERT INTO `usets`(`name`, `password`, `email`, `ref`, `sex`, `skin`, `regdata`, `ipdata`) VALUES ('mortis_grave', 'sferasfera, 'test@bk.ru', '0', '1', '160', '09.11.2022', '192.168.43.83')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'test@bk.ru', '0', '1', '160', '09.11.2022', '192.168.43.83')' at line 1
+[18:55:11] [WARNING] mysql_connect: no password specified
+[18:55:29] [ERROR] cache_get_value_name: field 'password' not found
+[18:56:31] [WARNING] mysql_connect: no password specified
+[18:56:53] [ERROR] cache_get_value_name: field 'password' not found
+[18:57:26] [WARNING] mysql_connect: no password specified
+[18:57:44] [ERROR] cache_get_value_name: field 'password' not found
+[18:59:44] [WARNING] mysql_connect: no password specified
+[18:59:48] [ERROR] cache_get_value_name: field 'password' not found
+[19:04:54] [WARNING] mysql_connect: no password specified
+[19:05:13] [ERROR] cache_get_value_name: field 'password' not found
+[19:05:49] [WARNING] mysql_connect: no password specified
+[19:06:17] [WARNING] mysql_connect: no password specified
+[19:06:59] [ERROR] error #1064 while executing query "INSERT INTO `usets`(`name`, `password`, `email`, `ref`, `sex`, `skin`, `regdata`, `ipdata`) VALUES ('Mortis_Dildo', 'sferasfera, 'rus.gavrish.98@bk.ru', '0', '2', '201', '09.11.2022', '192.168.43.83')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rus.gavrish.98@bk.ru', '0', '2', '201', '09.11.2022', '192.168.43.83')' at line 1
+[21:12:24] [WARNING] mysql_connect: no password specified
+[21:14:21] [ERROR] error #1064 while executing query "INSERT INTO `usets`(`name`, `password`, `email`, `ref`, `sex`, `skin`, `regdata`, `ipdata`) VALUES ('Mortis_Dildo', 'sferasfera, 'rus.gavrish.98@bk.ru', '0', '1', '230', '09.11.2022', '192.168.43.83')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rus.gavrish.98@bk.ru', '0', '1', '230', '09.11.2022', '192.168.43.83')' at line 1
+[21:21:17] [WARNING] mysql_connect: no password specified
+[21:22:04] [ERROR] error #1064 while executing query "INSERT INTO `usets`(`name`, `password`, `email`, `ref`, `sex`, `skin`, `regdata`, `ipdata`) VALUES ('Mortis_Dildo', 'sferasfera, 'rus.gavrish.98@bk.ru', '0', '1', '137', '09.11.2022', '192.168.43.83')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rus.gavrish.98@bk.ru', '0', '1', '137', '09.11.2022', '192.168.43.83')' at line 1
+[21:35:37] [WARNING] mysql_connect: no password specified
+[21:46:08] [WARNING] mysql_connect: no password specified
+[21:46:31] [ERROR] cache_get_value_name: field 'password' not found
+[21:50:51] [WARNING] mysql_connect: no password specified
+[21:51:10] [ERROR] cache_get_value_name: field 'password' not found
+[21:52:42] [WARNING] mysql_connect: no password specified
+[21:53:12] [ERROR] cache_get_value_name: field 'password' not found
+[21:54:28] [WARNING] mysql_connect: no password specified
+[21:54:34] [ERROR] cache_get_value_name: field 'password' not found
+[21:54:38] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:54:38] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[21:54:38] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:54:38] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:54:38] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:54:38] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[21:54:38] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[21:57:07] [WARNING] mysql_connect: no password specified
+[21:57:15] [ERROR] cache_get_value_name: field 'password' not found
+[21:57:18] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:57:18] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[21:57:18] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:57:18] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:57:18] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:57:18] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[21:57:18] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[21:58:11] [WARNING] mysql_connect: no password specified
+[21:58:32] [ERROR] cache_get_value_name: field 'password' not found
+[21:58:35] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:58:35] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[21:58:35] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:58:35] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:58:35] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:58:35] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[21:58:35] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[21:59:25] [WARNING] mysql_connect: no password specified
+[21:59:45] [ERROR] cache_get_value_name: field 'password' not found
+[21:59:48] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:59:48] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[21:59:48] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:59:48] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:59:48] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[21:59:48] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[21:59:48] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:15:58] [WARNING] mysql_connect: no password specified
+[17:16:24] [ERROR] cache_get_value_name: field 'password' not found
+[17:16:30] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:16:30] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:16:30] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:16:30] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:16:30] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:16:30] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:16:30] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:17:01] [ERROR] cache_get_value_name: field 'password' not found
+[17:17:04] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:17:04] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:17:04] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:17:04] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:17:04] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:17:04] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:17:04] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:19:35] [WARNING] mysql_connect: no password specified
+[17:19:57] [ERROR] cache_get_value_name: field 'password' not found
+[17:20:01] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:20:01] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:20:01] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:20:01] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:20:01] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:20:01] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:20:01] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:20:01] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:24:39] [WARNING] mysql_connect: no password specified
+[17:24:57] [ERROR] cache_get_value_name: field 'password' not found
+[17:27:16] [WARNING] mysql_connect: no password specified
+[17:27:39] [ERROR] cache_get_value_name: field 'password' not found
+[17:28:05] [WARNING] mysql_connect: no password specified
+[17:28:23] [ERROR] cache_get_value_name: field 'password' not found
+[17:30:22] [WARNING] mysql_connect: no password specified
+[17:31:49] [ERROR] cache_get_value_name: field 'password' not found
+[17:32:44] [WARNING] mysql_connect: no password specified
+[17:33:02] [ERROR] cache_get_value_name: field 'password' not found
+[17:33:08] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:33:08] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:33:08] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:33:08] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:33:08] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:33:08] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:33:08] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:34:19] [ERROR] cache_get_value_name: field 'password' not found
+[17:34:23] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:34:23] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:34:23] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:34:23] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:34:23] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:34:23] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:34:23] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:37:50] [WARNING] mysql_connect: no password specified
+[17:38:07] [ERROR] cache_get_value_name: field 'password' not found
+[17:38:12] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:38:12] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:38:12] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:38:12] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:38:12] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:38:12] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:38:12] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:41:49] [WARNING] mysql_connect: no password specified
+[17:42:07] [ERROR] cache_get_value_name: field 'password' not found
+[17:42:14] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:42:14] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:42:14] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:42:14] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:42:14] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:42:14] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:42:14] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:46:43] [WARNING] mysql_connect: no password specified
+[17:47:02] [ERROR] cache_get_value_name: field 'password' not found
+[17:47:08] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:47:08] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:47:08] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:47:08] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:47:08] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:47:08] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:47:08] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:48:28] [WARNING] mysql_connect: no password specified
+[17:48:46] [ERROR] cache_get_value_name: field 'password' not found
+[17:48:51] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:48:51] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:48:51] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:48:51] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:48:51] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:48:51] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:48:51] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:48:51] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:50:36] [WARNING] mysql_connect: no password specified
+[17:50:55] [ERROR] cache_get_value_name: field 'password' not found
+[17:50:59] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:50:59] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:50:59] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:50:59] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:50:59] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:50:59] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:50:59] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:50:59] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:50:59] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:50:59] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:50:59] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:50:59] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[17:50:59] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:50:59] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[17:56:55] [WARNING] mysql_connect: no password specified
+[17:57:19] [WARNING] mysql_connect: no password specified
+[17:57:51] [ERROR] cache_get_value_name: field 'password' not found
+[18:00:57] [WARNING] mysql_connect: no password specified
+[18:01:25] [ERROR] cache_get_value_name: field 'password' not found
+[18:01:36] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:01:36] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:01:36] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:01:36] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:01:36] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:01:36] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:01:36] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:04:33] [WARNING] mysql_connect: no password specified
+[18:04:53] [ERROR] cache_get_value_name: invalid row index '3' (number of rows: '1')
+[18:04:56] [ERROR] cache_get_value_name_int: invalid row index '1' (number of rows: '0')
+[18:04:56] [ERROR] cache_get_value_name: invalid row index '4' (number of rows: '0')
+[18:04:56] [ERROR] cache_get_value_name_int: invalid row index '5' (number of rows: '0')
+[18:04:56] [ERROR] cache_get_value_name_int: invalid row index '6' (number of rows: '0')
+[18:04:56] [ERROR] cache_get_value_name_int: invalid row index '7' (number of rows: '0')
+[18:04:56] [ERROR] cache_get_value_name: invalid row index '8' (number of rows: '0')
+[18:04:56] [ERROR] cache_get_value_name: invalid row index '9' (number of rows: '0')
+[18:10:01] [WARNING] mysql_connect: no password specified
+[18:10:21] [ERROR] cache_get_value_name: field 'password' not found
+[18:10:24] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:10:24] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:10:24] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:10:24] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:10:24] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:10:24] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:10:24] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:12:38] [WARNING] mysql_connect: no password specified
+[18:12:57] [ERROR] cache_get_value_name: field 'password' not found
+[18:12:59] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:12:59] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:12:59] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:12:59] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:12:59] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:12:59] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:12:59] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:35:46] [WARNING] mysql_connect: no password specified
+[18:37:14] [ERROR] cache_get_value_name: field 'password' not found
+[18:37:58] [ERROR] cache_get_value_name: field 'password' not found
+[18:40:23] [WARNING] mysql_connect: no password specified
+[18:40:42] [ERROR] cache_get_value_name: field 'password' not found
+[18:40:45] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:40:45] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:40:45] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:40:45] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:40:45] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:40:45] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:40:45] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:42:05] [WARNING] mysql_connect: no password specified
+[18:42:24] [ERROR] cache_get_value_name: field 'password' not found
+[18:42:31] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:42:31] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:42:31] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:42:31] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:42:31] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:42:31] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:42:31] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:43:26] [WARNING] mysql_connect: no password specified
+[18:43:45] [ERROR] cache_get_value_name: field 'password' not found
+[18:43:53] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:43:53] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:43:53] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:43:53] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:43:53] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:43:53] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:43:53] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:46:41] [WARNING] mysql_connect: no password specified
+[18:46:45] [ERROR] cache_get_value_name: field 'password' not found
+[18:46:52] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:46:52] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:46:52] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:46:52] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:46:52] [ERROR] cache_get_value_name_int: invalid row index '0' (number of rows: '0')
+[18:46:52] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[18:46:52] [ERROR] cache_get_value_name: invalid row index '0' (number of rows: '0')
+[19:25:07] [WARNING] mysql_connect: no password specified
+[19:25:26] [ERROR] cache_get_value_name: field 'password' not found
+[19:27:12] [ERROR] cache_get_value_name: field 'password' not found
+[19:30:39] [WARNING] mysql_connect: no password specified
+[19:36:13] [WARNING] mysql_connect: no password specified
+[20:32:52] [WARNING] mysql_connect: no password specified
+[20:34:12] [WARNING] mysql_connect: no password specified
+[20:40:30] [WARNING] mysql_connect: no password specified
+[20:44:18] [WARNING] mysql_connect: no password specified
+[20:52:52] [WARNING] mysql_connect: no password specified
+[20:58:17] [WARNING] mysql_connect: no password specified
+[21:01:31] [WARNING] mysql_connect: no password specified
+[21:06:18] [WARNING] mysql_connect: no password specified
+[22:59:30] [WARNING] mysql_connect: no password specified
+[23:04:19] [WARNING] mysql_connect: no password specified
+[16:58:55] [WARNING] mysql_connect: no password specified
+[17:03:02] [WARNING] mysql_connect: no password specified
+[17:07:49] [WARNING] mysql_connect: no password specified
+[17:15:01] [WARNING] mysql_connect: no password specified
+[17:20:14] [WARNING] mysql_connect: no password specified
+[20:09:16] [WARNING] mysql_connect: no password specified
+[20:22:31] [WARNING] mysql_connect: no password specified
+[20:27:51] [WARNING] mysql_connect: no password specified
+[20:33:58] [WARNING] mysql_connect: no password specified
+[20:37:18] [WARNING] mysql_connect: no password specified
+[20:45:02] [WARNING] mysql_connect: no password specified
+[20:47:44] [WARNING] mysql_connect: no password specified
+[20:49:03] [WARNING] mysql_connect: no password specified
+[20:50:22] [WARNING] mysql_connect: no password specified
+[20:52:43] [WARNING] mysql_connect: no password specified
+[20:57:29] [WARNING] mysql_connect: no password specified
+[21:47:03] [WARNING] mysql_connect: no password specified
+[21:49:38] [WARNING] mysql_connect: no password specified
+[21:51:16] [WARNING] mysql_connect: no password specified
+[21:54:15] [WARNING] mysql_connect: no password specified
+[00:01:02] [WARNING] mysql_connect: no password specified
+[00:05:47] [WARNING] mysql_connect: no password specified
+[00:07:15] [WARNING] mysql_connect: no password specified
+[00:10:25] [WARNING] mysql_connect: no password specified
