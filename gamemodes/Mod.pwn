@@ -102,7 +102,7 @@ public OnPlayerConnect(playerid)
 	format(query, sizeof(query), fmt_query, player_info[playerid][NAME]);
 	mysql_tquery(dbHandle, query, "CheckRegistration", "i", playerid);
 
-	TogglePlayerSpectating(playerid, 1);
+	//TogglePlayerSpectating(playerid, 1);
 
 	SetPVarInt(playerid, "WrongPassword", 3);
 	return 1;
@@ -538,21 +538,30 @@ public PlayerLogin(playerid)
 	if(rows)
 	{
 		cache_get_value_name_int(0, "id", player_info[playerid][ID]);
+		print(player_info[playerid][ID]);
 		cache_get_value_name(0, "email", player_info[playerid][EMAIL], 64);
+		print(player_info[playerid][EMAIL]);
 		cache_get_value_name_int(0, "ref", player_info[playerid][REF]);
+		print(player_info[playerid][REF]);
 		cache_get_value_name_int(0, "sex", player_info[playerid][SEX]);
+		print(player_info[playerid][SEX]);
 		cache_get_value_name_int(0, "skin", player_info[playerid][SKIN]);
+		print(player_info[playerid][SKIN]);
 		cache_get_value_name(0, "regdata", player_info[playerid][REGDATA], 12);
+		print(player_info[playerid][REGDATA]);
 		cache_get_value_name(0, "ipdata", player_info[playerid][IPDATA], 15);
+		print(player_info[playerid][IPDATA]);
 		cache_get_value_name_int(0, "admin", player_info[playerid][ADMIN]);
-		TogglePlayerSpectating(playerid, 0);
+		print(player_info[playerid][ADMIN]);
+		
+		//TogglePlayerSpectating(playerid, 0);
+		print("Спектатор выключен");
 		SetPVarInt(playerid, "logged", 1);
+		print("логгед равен 1");
 		SetSpawnInfo(playerid, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-		//SetPlayerPos(playerid, 1760.7123, -1895.0684, 13.5611);
-		//SetPlayerFacingAngle(playerid,270.0);
-		//SetCameraBehindPlayer(playerid);
+		print("Спавн инфо выполнен");
 		SpawnPlayer(playerid);
-
+		print("заспавлен");
 	}
 	return 1;
 }

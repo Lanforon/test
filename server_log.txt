@@ -7989,3 +7989,1936 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [00:13:05] [debug] AMX backtrace:
 [00:13:05] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
 [00:14:07] [part] mortis_grave has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:36:55] 
+[16:36:55] Server Plugins
+[16:36:55] --------------
+[16:36:55]  Loading plugin: mysql
+[16:36:55]  >> plugin.mysql: R41-4 successfully loaded.
+[16:36:55]   Loaded.
+[16:36:55]  Loading plugin: crashdetect
+[16:36:55]   CrashDetect v4.18.1 is OK.
+[16:36:55]   Loaded.
+[16:36:55]  Loading plugin: streamer
+[16:36:55] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[16:36:55]   Loaded.
+[16:36:55]  Loading plugin: sscanf
+[16:36:55] 
+
+[16:36:55]  ===============================
+
+[16:36:55]       sscanf plugin loaded.     
+
+[16:36:55]          Version:  2.8.1        
+
+[16:36:55]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:36:55]  ===============================
+
+[16:36:55]   Loaded.
+[16:36:55]  Loading plugin: pawnregex
+[16:36:55] Pawn.Regex plugin v1.1 by urShadow loaded
+[16:36:55]   Loaded.
+[16:36:55]  Loading plugin: pawncmd
+[16:36:55] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[16:36:55]   Loaded.
+[16:36:55]  Loaded 6 plugins.
+
+[16:36:55] 
+[16:36:55] Filterscripts
+[16:36:55] ---------------
+[16:36:55]   Loaded 0 filterscripts.
+
+[16:37:03] [SQL]: Не удалось подключиться к базе данных | Ошибка: #2002
+[16:37:03] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:37:17] 
+[16:37:17] Server Plugins
+[16:37:17] --------------
+[16:37:17]  Loading plugin: mysql
+[16:37:17]  >> plugin.mysql: R41-4 successfully loaded.
+[16:37:17]   Loaded.
+[16:37:17]  Loading plugin: crashdetect
+[16:37:17]   CrashDetect v4.18.1 is OK.
+[16:37:17]   Loaded.
+[16:37:17]  Loading plugin: streamer
+[16:37:17] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[16:37:17]   Loaded.
+[16:37:17]  Loading plugin: sscanf
+[16:37:17] 
+
+[16:37:17]  ===============================
+
+[16:37:17]       sscanf plugin loaded.     
+
+[16:37:17]          Version:  2.8.1        
+
+[16:37:17]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:37:17]  ===============================
+
+[16:37:17]   Loaded.
+[16:37:17]  Loading plugin: pawnregex
+[16:37:17] Pawn.Regex plugin v1.1 by urShadow loaded
+[16:37:17]   Loaded.
+[16:37:17]  Loading plugin: pawncmd
+[16:37:17] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[16:37:17]   Loaded.
+[16:37:17]  Loaded 6 plugins.
+
+[16:37:17] 
+[16:37:17] Filterscripts
+[16:37:17] ---------------
+[16:37:17]   Loaded 0 filterscripts.
+
+[16:37:21] [SQL]: База данных была успешно подключена
+[16:37:21] Number of vehicle models: 0
+[16:37:38] [connection] 127.0.0.1:53300 requests connection cookie.
+[16:37:39] [connection] incoming connection: 127.0.0.1:53300 id: 0
+[16:37:40] [join] hdhbtrsgn has joined the server (0:127.0.0.1)
+[16:37:40] sferasfera
+[16:37:43] [debug] Run time error 6: "Invalid instruction"
+[16:37:43] [debug]  Unknown opcode 0x0 at address 0x00000004
+[16:37:43] [debug] AMX backtrace:
+[16:37:43] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[16:38:29] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:48:13] 
+[17:48:13] Server Plugins
+[17:48:13] --------------
+[17:48:13]  Loading plugin: mysql
+[17:48:13]  >> plugin.mysql: R41-4 successfully loaded.
+[17:48:13]   Loaded.
+[17:48:13]  Loading plugin: crashdetect
+[17:48:13]   CrashDetect v4.18.1 is OK.
+[17:48:13]   Loaded.
+[17:48:13]  Loading plugin: streamer
+[17:48:13] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[17:48:13]   Loaded.
+[17:48:13]  Loading plugin: sscanf
+[17:48:13] 
+
+[17:48:13]  ===============================
+
+[17:48:13]       sscanf plugin loaded.     
+
+[17:48:13]          Version:  2.8.1        
+
+[17:48:13]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:48:13]  ===============================
+
+[17:48:13]   Loaded.
+[17:48:13]  Loading plugin: pawnregex
+[17:48:13] Pawn.Regex plugin v1.1 by urShadow loaded
+[17:48:13]   Loaded.
+[17:48:13]  Loading plugin: pawncmd
+[17:48:13] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[17:48:13]   Loaded.
+[17:48:13]  Loaded 6 plugins.
+
+[17:48:13] 
+[17:48:13] Filterscripts
+[17:48:13] ---------------
+[17:48:13]   Loaded 0 filterscripts.
+
+[17:48:17] [SQL]: База данных была успешно подключена
+[17:48:17] Number of vehicle models: 0
+[17:48:39] [connection] 127.0.0.1:61855 requests connection cookie.
+[17:48:40] [connection] incoming connection: 127.0.0.1:61855 id: 0
+[17:48:40] [join] hdhbtrsgn has joined the server (0:127.0.0.1)
+[17:48:40] sferasfera
+[17:48:43] [debug] Run time error 6: "Invalid instruction"
+[17:48:43] [debug]  Unknown opcode 0x0 at address 0x00000004
+[17:48:43] [debug] AMX backtrace:
+[17:48:43] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[17:49:29] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:52:49] 
+[17:52:49] Server Plugins
+[17:52:49] --------------
+[17:52:49]  Loading plugin: mysql
+[17:52:50]  >> plugin.mysql: R41-4 successfully loaded.
+[17:52:50]   Loaded.
+[17:52:50]  Loading plugin: crashdetect
+[17:52:50]   CrashDetect v4.18.1 is OK.
+[17:52:50]   Loaded.
+[17:52:50]  Loading plugin: streamer
+[17:52:50] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[17:52:50]   Loaded.
+[17:52:50]  Loading plugin: sscanf
+[17:52:50] 
+
+[17:52:50]  ===============================
+
+[17:52:50]       sscanf plugin loaded.     
+
+[17:52:50]          Version:  2.8.1        
+
+[17:52:50]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:52:50]  ===============================
+
+[17:52:50]   Loaded.
+[17:52:50]  Loading plugin: pawnregex
+[17:52:50] Pawn.Regex plugin v1.1 by urShadow loaded
+[17:52:50]   Loaded.
+[17:52:50]  Loading plugin: pawncmd
+[17:52:50] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[17:52:50]   Loaded.
+[17:52:50]  Loaded 6 plugins.
+
+[17:52:50] 
+[17:52:50] Filterscripts
+[17:52:50] ---------------
+[17:52:50]   Loaded 0 filterscripts.
+
+[17:52:54] [SQL]: База данных была успешно подключена
+[17:52:54] Number of vehicle models: 0
+[17:53:06] [connection] 127.0.0.1:54089 requests connection cookie.
+[17:53:07] [connection] incoming connection: 127.0.0.1:54089 id: 0
+[17:53:07] [join] hdhbtrsgn has joined the server (0:127.0.0.1)
+[17:53:08] sferasfera
+[17:53:10] [debug] Run time error 6: "Invalid instruction"
+[17:53:10] [debug]  Unknown opcode 0x0 at address 0x00000004
+[17:53:10] [debug] AMX backtrace:
+[17:53:10] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[17:53:38] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:11:26] 
+[18:11:26] Server Plugins
+[18:11:26] --------------
+[18:11:26]  Loading plugin: mysql
+[18:11:26]  >> plugin.mysql: R41-4 successfully loaded.
+[18:11:26]   Loaded.
+[18:11:26]  Loading plugin: crashdetect
+[18:11:26]   CrashDetect v4.18.1 is OK.
+[18:11:26]   Loaded.
+[18:11:26]  Loading plugin: streamer
+[18:11:26] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[18:11:26]   Loaded.
+[18:11:26]  Loading plugin: sscanf
+[18:11:26] 
+
+[18:11:26]  ===============================
+
+[18:11:26]       sscanf plugin loaded.     
+
+[18:11:26]          Version:  2.8.1        
+
+[18:11:26]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:11:26]  ===============================
+
+[18:11:26]   Loaded.
+[18:11:26]  Loading plugin: pawnregex
+[18:11:26] Pawn.Regex plugin v1.1 by urShadow loaded
+[18:11:26]   Loaded.
+[18:11:26]  Loading plugin: pawncmd
+[18:11:26] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[18:11:26]   Loaded.
+[18:11:26]  Loaded 6 plugins.
+
+[18:11:27] 
+[18:11:27] Filterscripts
+[18:11:27] ---------------
+[18:11:27]   Loaded 0 filterscripts.
+
+[18:11:31] [SQL]: База данных была успешно подключена
+[18:11:31] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:11:39] 
+[18:11:39] Server Plugins
+[18:11:39] --------------
+[18:11:39]  Loading plugin: mysql
+[18:11:39]  >> plugin.mysql: R41-4 successfully loaded.
+[18:11:39]   Loaded.
+[18:11:39]  Loading plugin: crashdetect
+[18:11:39]   CrashDetect v4.18.1 is OK.
+[18:11:39]   Loaded.
+[18:11:39]  Loading plugin: streamer
+[18:11:39] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[18:11:39]   Loaded.
+[18:11:39]  Loading plugin: sscanf
+[18:11:39] 
+
+[18:11:39]  ===============================
+
+[18:11:39]       sscanf plugin loaded.     
+
+[18:11:39]          Version:  2.8.1        
+
+[18:11:39]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:11:39]  ===============================
+
+[18:11:39]   Loaded.
+[18:11:39]  Loading plugin: pawnregex
+[18:11:39] Pawn.Regex plugin v1.1 by urShadow loaded
+[18:11:39]   Loaded.
+[18:11:39]  Loading plugin: pawncmd
+[18:11:39] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[18:11:39]   Loaded.
+[18:11:39]  Loaded 6 plugins.
+
+[18:11:40] 
+[18:11:40] Filterscripts
+[18:11:40] ---------------
+[18:11:40]   Loaded 0 filterscripts.
+
+[18:11:44] [SQL]: База данных была успешно подключена
+[18:11:44] Number of vehicle models: 0
+[18:12:00] [connection] 192.168.43.117:57743 requests connection cookie.
+[18:12:01] [connection] incoming connection: 192.168.43.117:57743 id: 0
+[18:12:02] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[18:12:02] sferasfera
+[18:12:05] [debug] Run time error 6: "Invalid instruction"
+[18:12:05] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:12:05] [debug] AMX backtrace:
+[18:12:05] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[18:12:07] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:18:32] 
+[18:18:32] Server Plugins
+[18:18:32] --------------
+[18:18:32]  Loading plugin: mysql
+[18:18:32]  >> plugin.mysql: R41-4 successfully loaded.
+[18:18:32]   Loaded.
+[18:18:32]  Loading plugin: crashdetect
+[18:18:32]   CrashDetect v4.18.1 is OK.
+[18:18:32]   Loaded.
+[18:18:32]  Loading plugin: streamer
+[18:18:32] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[18:18:32]   Loaded.
+[18:18:32]  Loading plugin: sscanf
+[18:18:32] 
+
+[18:18:32]  ===============================
+
+[18:18:32]       sscanf plugin loaded.     
+
+[18:18:32]          Version:  2.8.1        
+
+[18:18:32]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:18:32]  ===============================
+
+[18:18:32]   Loaded.
+[18:18:32]  Loading plugin: pawnregex
+[18:18:32] Pawn.Regex plugin v1.1 by urShadow loaded
+[18:18:32]   Loaded.
+[18:18:32]  Loading plugin: pawncmd
+[18:18:32] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[18:18:32]   Loaded.
+[18:18:32]  Loaded 6 plugins.
+
+[18:18:32] 
+[18:18:32] Filterscripts
+[18:18:32] ---------------
+[18:18:32]   Loaded 0 filterscripts.
+
+[18:18:36] [SQL]: База данных была успешно подключена
+[18:18:36] Number of vehicle models: 0
+[18:18:49] [connection] 192.168.43.117:51961 requests connection cookie.
+[18:18:50] [connection] incoming connection: 192.168.43.117:51961 id: 0
+[18:18:51] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[18:18:51] sferasfera
+[18:18:54] [debug] Run time error 6: "Invalid instruction"
+[18:18:54] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:18:54] [debug] AMX backtrace:
+[18:18:54] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[18:18:54] [debug] Run time error 6: "Invalid instruction"
+[18:18:54] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:18:54] [debug] AMX backtrace:
+[18:18:54] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[18:22:33] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:25:11] 
+[18:25:11] Server Plugins
+[18:25:11] --------------
+[18:25:11]  Loading plugin: mysql
+[18:25:11]  >> plugin.mysql: R41-4 successfully loaded.
+[18:25:11]   Loaded.
+[18:25:11]  Loading plugin: crashdetect
+[18:25:11]   CrashDetect v4.18.1 is OK.
+[18:25:11]   Loaded.
+[18:25:11]  Loading plugin: streamer
+[18:25:11] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[18:25:11]   Loaded.
+[18:25:11]  Loading plugin: sscanf
+[18:25:11] 
+
+[18:25:11]  ===============================
+
+[18:25:11]       sscanf plugin loaded.     
+
+[18:25:11]          Version:  2.8.1        
+
+[18:25:11]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:25:11]  ===============================
+
+[18:25:11]   Loaded.
+[18:25:11]  Loading plugin: pawnregex
+[18:25:11] Pawn.Regex plugin v1.1 by urShadow loaded
+[18:25:11]   Loaded.
+[18:25:11]  Loading plugin: pawncmd
+[18:25:11] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[18:25:11]   Loaded.
+[18:25:11]  Loaded 6 plugins.
+
+[18:25:11] 
+[18:25:11] Filterscripts
+[18:25:11] ---------------
+[18:25:11]   Loaded 0 filterscripts.
+
+[18:25:15] [SQL]: База данных была успешно подключена
+[18:25:16] Number of vehicle models: 0
+[18:25:28] [connection] 192.168.43.117:59995 requests connection cookie.
+[18:25:29] [connection] incoming connection: 192.168.43.117:59995 id: 0
+[18:25:29] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[18:25:29] sferasfera
+[18:25:34] [debug] Run time error 6: "Invalid instruction"
+[18:25:34] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:25:34] [debug] AMX backtrace:
+[18:25:34] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[18:25:34] [debug] Run time error 6: "Invalid instruction"
+[18:25:34] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:25:34] [debug] AMX backtrace:
+[18:25:34] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[18:27:23] [part] hdhbtrsgn has left the server (0:1)
+[18:28:05] [connection] 192.168.43.117:52966 requests connection cookie.
+[18:28:06] [connection] incoming connection: 192.168.43.117:52966 id: 0
+[18:28:06] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[18:28:06] sferasfera
+[18:28:08] [debug] Run time error 6: "Invalid instruction"
+[18:28:08] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:28:08] [debug] AMX backtrace:
+[18:28:08] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[18:28:08] [debug] Run time error 6: "Invalid instruction"
+[18:28:08] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:28:08] [debug] AMX backtrace:
+[18:28:08] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[18:28:56] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:33:05] 
+[18:33:05] Server Plugins
+[18:33:05] --------------
+[18:33:05]  Loading plugin: mysql
+[18:33:05]  >> plugin.mysql: R41-4 successfully loaded.
+[18:33:05]   Loaded.
+[18:33:05]  Loading plugin: crashdetect
+[18:33:05]   CrashDetect v4.18.1 is OK.
+[18:33:05]   Loaded.
+[18:33:05]  Loading plugin: streamer
+[18:33:05] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[18:33:05]   Loaded.
+[18:33:05]  Loading plugin: sscanf
+[18:33:05] 
+
+[18:33:05]  ===============================
+
+[18:33:05]       sscanf plugin loaded.     
+
+[18:33:05]          Version:  2.8.1        
+
+[18:33:05]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:33:05]  ===============================
+
+[18:33:05]   Loaded.
+[18:33:05]  Loading plugin: pawnregex
+[18:33:05] Pawn.Regex plugin v1.1 by urShadow loaded
+[18:33:05]   Loaded.
+[18:33:05]  Loading plugin: pawncmd
+[18:33:05] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[18:33:05]   Loaded.
+[18:33:05]  Loaded 6 plugins.
+
+[18:33:05] 
+[18:33:05] Filterscripts
+[18:33:05] ---------------
+[18:33:05]   Loaded 0 filterscripts.
+
+[18:33:10] [SQL]: База данных была успешно подключена
+[18:33:10] Number of vehicle models: 0
+[18:33:23] [connection] 192.168.43.117:60224 requests connection cookie.
+[18:33:24] [connection] incoming connection: 192.168.43.117:60224 id: 0
+[18:33:24] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[18:33:24] sferasfera
+[18:33:28] [debug] Run time error 6: "Invalid instruction"
+[18:33:28] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:33:28] [debug] AMX backtrace:
+[18:33:28] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[18:33:29] [debug] Run time error 6: "Invalid instruction"
+[18:33:29] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:33:29] [debug] AMX backtrace:
+[18:33:29] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[18:33:32] [chat] [hdhbtrsgn]: ntcn
+[18:33:32] [part] hdhbtrsgn has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:36:05] 
+[18:36:05] Server Plugins
+[18:36:05] --------------
+[18:36:05]  Loading plugin: mysql
+[18:36:05]  >> plugin.mysql: R41-4 successfully loaded.
+[18:36:05]   Loaded.
+[18:36:05]  Loading plugin: crashdetect
+[18:36:05]   CrashDetect v4.18.1 is OK.
+[18:36:05]   Loaded.
+[18:36:05]  Loading plugin: streamer
+[18:36:05] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[18:36:05]   Loaded.
+[18:36:05]  Loading plugin: sscanf
+[18:36:05] 
+
+[18:36:05]  ===============================
+
+[18:36:05]       sscanf plugin loaded.     
+
+[18:36:05]          Version:  2.8.1        
+
+[18:36:05]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:36:05]  ===============================
+
+[18:36:05]   Loaded.
+[18:36:05]  Loading plugin: pawnregex
+[18:36:05] Pawn.Regex plugin v1.1 by urShadow loaded
+[18:36:05]   Loaded.
+[18:36:05]  Loading plugin: pawncmd
+[18:36:05] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[18:36:05]   Loaded.
+[18:36:05]  Loaded 6 plugins.
+
+[18:36:06] 
+[18:36:06] Filterscripts
+[18:36:06] ---------------
+[18:36:06]   Loaded 0 filterscripts.
+
+[18:36:10] [SQL]: База данных была успешно подключена
+[18:36:10] Number of vehicle models: 0
+[18:36:23] [connection] 192.168.43.117:52536 requests connection cookie.
+[18:36:24] [connection] incoming connection: 192.168.43.117:52536 id: 0
+[18:36:24] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[18:36:24] sferasfera
+[18:36:28] [debug] Run time error 6: "Invalid instruction"
+[18:36:28] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:36:28] [debug] AMX backtrace:
+[18:36:28] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[18:36:28] [debug] Run time error 6: "Invalid instruction"
+[18:36:28] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:36:28] [debug] AMX backtrace:
+[18:36:28] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[18:36:31] [chat] [hdhbtrsgn]: nt
+[18:36:31] [part] hdhbtrsgn has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:38:42] 
+[18:38:42] Server Plugins
+[18:38:42] --------------
+[18:38:42]  Loading plugin: mysql
+[18:38:42]  >> plugin.mysql: R41-4 successfully loaded.
+[18:38:42]   Loaded.
+[18:38:42]  Loading plugin: crashdetect
+[18:38:42]   CrashDetect v4.18.1 is OK.
+[18:38:42]   Loaded.
+[18:38:42]  Loading plugin: streamer
+[18:38:42] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[18:38:42]   Loaded.
+[18:38:42]  Loading plugin: sscanf
+[18:38:42] 
+
+[18:38:42]  ===============================
+
+[18:38:42]       sscanf plugin loaded.     
+
+[18:38:42]          Version:  2.8.1        
+
+[18:38:42]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:38:42]  ===============================
+
+[18:38:42]   Loaded.
+[18:38:42]  Loading plugin: pawnregex
+[18:38:42] Pawn.Regex plugin v1.1 by urShadow loaded
+[18:38:42]   Loaded.
+[18:38:42]  Loading plugin: pawncmd
+[18:38:42] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[18:38:42]   Loaded.
+[18:38:42]  Loaded 6 plugins.
+
+[18:38:42] 
+[18:38:42] Filterscripts
+[18:38:42] ---------------
+[18:38:42]   Loaded 0 filterscripts.
+
+[18:38:46] [SQL]: База данных была успешно подключена
+[18:38:46] Number of vehicle models: 0
+[18:38:59] [connection] 192.168.43.117:56021 requests connection cookie.
+[18:39:00] [connection] incoming connection: 192.168.43.117:56021 id: 0
+[18:39:00] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[18:39:00] sferasfera
+[18:39:06] [debug] Run time error 6: "Invalid instruction"
+[18:39:06] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:39:06] [debug] AMX backtrace:
+[18:39:06] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[18:39:06] [debug] Run time error 6: "Invalid instruction"
+[18:39:06] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:39:06] [debug] AMX backtrace:
+[18:39:06] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[18:39:11] [chat] [hdhbtrsgn]: это тетс
+[18:39:11] [part] hdhbtrsgn has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:39:58] 
+[18:39:58] Server Plugins
+[18:39:58] --------------
+[18:39:58]  Loading plugin: mysql
+[18:39:58]  >> plugin.mysql: R41-4 successfully loaded.
+[18:39:58]   Loaded.
+[18:39:58]  Loading plugin: crashdetect
+[18:39:58]   CrashDetect v4.18.1 is OK.
+[18:39:58]   Loaded.
+[18:39:58]  Loading plugin: streamer
+[18:39:58] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[18:39:58]   Loaded.
+[18:39:58]  Loading plugin: sscanf
+[18:39:58] 
+
+[18:39:58]  ===============================
+
+[18:39:58]       sscanf plugin loaded.     
+
+[18:39:58]          Version:  2.8.1        
+
+[18:39:58]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:39:58]  ===============================
+
+[18:39:58]   Loaded.
+[18:39:58]  Loading plugin: pawnregex
+[18:39:58] Pawn.Regex plugin v1.1 by urShadow loaded
+[18:39:58]   Loaded.
+[18:39:58]  Loading plugin: pawncmd
+[18:39:58] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[18:39:58]   Loaded.
+[18:39:58]  Loaded 6 plugins.
+
+[18:39:58] 
+[18:39:58] Filterscripts
+[18:39:58] ---------------
+[18:39:58]   Loaded 0 filterscripts.
+
+[18:40:02] [SQL]: База данных была успешно подключена
+[18:40:02] Number of vehicle models: 0
+[18:40:16] [connection] 192.168.43.117:63148 requests connection cookie.
+[18:40:17] [connection] incoming connection: 192.168.43.117:63148 id: 0
+[18:40:17] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[18:40:17] sferasfera
+[18:40:21] [debug] Run time error 6: "Invalid instruction"
+[18:40:21] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:40:21] [debug] AMX backtrace:
+[18:40:21] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[18:40:21] [debug] Run time error 6: "Invalid instruction"
+[18:40:21] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:40:21] [debug] AMX backtrace:
+[18:40:21] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[18:40:24] [chat] [hdhbtrsgn]: ntcn
+[18:40:24] [debug] Run time error 5: "Invalid memory access"
+[18:40:24] [debug] AMX backtrace:
+[18:40:24] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[18:40:38] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:41:10] 
+[18:41:10] Server Plugins
+[18:41:10] --------------
+[18:41:10]  Loading plugin: mysql
+[18:41:11]  >> plugin.mysql: R41-4 successfully loaded.
+[18:41:11]   Loaded.
+[18:41:11]  Loading plugin: crashdetect
+[18:41:11]   CrashDetect v4.18.1 is OK.
+[18:41:11]   Loaded.
+[18:41:11]  Loading plugin: streamer
+[18:41:11] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[18:41:11]   Loaded.
+[18:41:11]  Loading plugin: sscanf
+[18:41:11] 
+
+[18:41:11]  ===============================
+
+[18:41:11]       sscanf plugin loaded.     
+
+[18:41:11]          Version:  2.8.1        
+
+[18:41:11]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:41:11]  ===============================
+
+[18:41:11]   Loaded.
+[18:41:11]  Loading plugin: pawnregex
+[18:41:11] Pawn.Regex plugin v1.1 by urShadow loaded
+[18:41:11]   Loaded.
+[18:41:11]  Loading plugin: pawncmd
+[18:41:11] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[18:41:11]   Loaded.
+[18:41:11]  Loaded 6 plugins.
+
+[18:41:11] 
+[18:41:11] Filterscripts
+[18:41:11] ---------------
+[18:41:11]   Loaded 0 filterscripts.
+
+[18:41:15] [SQL]: База данных была успешно подключена
+[18:41:15] Number of vehicle models: 0
+[18:41:27] [connection] 192.168.43.117:54499 requests connection cookie.
+[18:41:28] [connection] incoming connection: 192.168.43.117:54499 id: 0
+[18:41:29] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[18:41:29] sferasfera
+[18:41:32] [debug] Run time error 6: "Invalid instruction"
+[18:41:32] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:41:32] [debug] AMX backtrace:
+[18:41:32] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[18:41:32] [debug] Run time error 6: "Invalid instruction"
+[18:41:32] [debug]  Unknown opcode 0x0 at address 0x00000004
+[18:41:32] [debug] AMX backtrace:
+[18:41:32] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[18:41:35] [chat] [hdhbtrsgn]: ngd
+[18:41:35] [debug] Run time error 5: "Invalid memory access"
+[18:41:35] [debug] AMX backtrace:
+[18:41:35] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[18:42:05] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:39:11] 
+[19:39:11] Server Plugins
+[19:39:11] --------------
+[19:39:11]  Loading plugin: mysql
+[19:39:11]  >> plugin.mysql: R41-4 successfully loaded.
+[19:39:11]   Loaded.
+[19:39:11]  Loading plugin: crashdetect
+[19:39:11]   CrashDetect v4.18.1 is OK.
+[19:39:11]   Loaded.
+[19:39:11]  Loading plugin: streamer
+[19:39:11] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[19:39:11]   Loaded.
+[19:39:11]  Loading plugin: sscanf
+[19:39:11] 
+
+[19:39:11]  ===============================
+
+[19:39:11]       sscanf plugin loaded.     
+
+[19:39:11]          Version:  2.8.1        
+
+[19:39:11]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:39:11]  ===============================
+
+[19:39:11]   Loaded.
+[19:39:11]  Loading plugin: pawnregex
+[19:39:11] Pawn.Regex plugin v1.1 by urShadow loaded
+[19:39:11]   Loaded.
+[19:39:11]  Loading plugin: pawncmd
+[19:39:11] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[19:39:11]   Loaded.
+[19:39:11]  Loaded 6 plugins.
+
+[19:39:11] 
+[19:39:11] Filterscripts
+[19:39:11] ---------------
+[19:39:11]   Loaded 0 filterscripts.
+
+[19:39:15] [SQL]: База данных была успешно подключена
+[19:39:15] Number of vehicle models: 0
+[19:39:30] [connection] 192.168.43.117:56360 requests connection cookie.
+[19:39:31] [connection] incoming connection: 192.168.43.117:56360 id: 0
+[19:39:31] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[19:39:31] sferasfera
+[19:45:43] [debug] Run time error 6: "Invalid instruction"
+[19:45:43] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:45:43] [debug] AMX backtrace:
+[19:45:43] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[19:45:43] [debug] Run time error 6: "Invalid instruction"
+[19:45:43] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:45:43] [debug] AMX backtrace:
+[19:45:43] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[19:45:50] [chat] [hdhbtrsgn]: тест
+[19:45:50] [debug] Run time error 5: "Invalid memory access"
+[19:45:50] [debug] AMX backtrace:
+[19:45:50] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:46:01] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:48:59] 
+[19:48:59] Server Plugins
+[19:48:59] --------------
+[19:48:59]  Loading plugin: mysql
+[19:48:59]  >> plugin.mysql: R41-4 successfully loaded.
+[19:48:59]   Loaded.
+[19:48:59]  Loading plugin: crashdetect
+[19:48:59]   CrashDetect v4.18.1 is OK.
+[19:48:59]   Loaded.
+[19:48:59]  Loading plugin: streamer
+[19:48:59] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[19:48:59]   Loaded.
+[19:48:59]  Loading plugin: sscanf
+[19:48:59] 
+
+[19:48:59]  ===============================
+
+[19:48:59]       sscanf plugin loaded.     
+
+[19:48:59]          Version:  2.8.1        
+
+[19:48:59]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:48:59]  ===============================
+
+[19:48:59]   Loaded.
+[19:48:59]  Loading plugin: pawnregex
+[19:48:59] Pawn.Regex plugin v1.1 by urShadow loaded
+[19:48:59]   Loaded.
+[19:48:59]  Loading plugin: pawncmd
+[19:48:59] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[19:48:59]   Loaded.
+[19:48:59]  Loaded 6 plugins.
+
+[19:48:59] 
+[19:48:59] Filterscripts
+[19:48:59] ---------------
+[19:48:59]   Loaded 0 filterscripts.
+
+[19:49:03] [SQL]: База данных была успешно подключена
+[19:49:03] Number of vehicle models: 0
+[19:49:16] [connection] 192.168.43.117:56690 requests connection cookie.
+[19:49:17] [connection] incoming connection: 192.168.43.117:56690 id: 0
+[19:49:17] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[19:49:17] sferasfera
+[19:49:21] [debug] Run time error 6: "Invalid instruction"
+[19:49:21] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:49:21] [debug] AMX backtrace:
+[19:49:21] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[19:49:21] [debug] Run time error 6: "Invalid instruction"
+[19:49:21] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:49:21] [debug] AMX backtrace:
+[19:49:21] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[19:49:25] [chat] [hdhbtrsgn]: тест
+[19:49:25] [debug] Run time error 5: "Invalid memory access"
+[19:49:25] [debug] AMX backtrace:
+[19:49:25] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:51:43] 
+[19:51:43] Server Plugins
+[19:51:43] --------------
+[19:51:43]  Loading plugin: mysql
+[19:51:44]  >> plugin.mysql: R41-4 successfully loaded.
+[19:51:44]   Loaded.
+[19:51:44]  Loading plugin: crashdetect
+[19:51:44]   CrashDetect v4.18.1 is OK.
+[19:51:44]   Loaded.
+[19:51:44]  Loading plugin: streamer
+[19:51:44] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[19:51:44]   Loaded.
+[19:51:44]  Loading plugin: sscanf
+[19:51:44] 
+
+[19:51:44]  ===============================
+
+[19:51:44]       sscanf plugin loaded.     
+
+[19:51:44]          Version:  2.8.1        
+
+[19:51:44]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:51:44]  ===============================
+
+[19:51:44]   Loaded.
+[19:51:44]  Loading plugin: pawnregex
+[19:51:44] Pawn.Regex plugin v1.1 by urShadow loaded
+[19:51:44]   Loaded.
+[19:51:44]  Loading plugin: pawncmd
+[19:51:44] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[19:51:44]   Loaded.
+[19:51:44]  Loaded 6 plugins.
+
+[19:51:44] 
+[19:51:44] Filterscripts
+[19:51:44] ---------------
+[19:51:44]   Loaded 0 filterscripts.
+
+[19:51:48] [SQL]: База данных была успешно подключена
+[19:51:48] Number of vehicle models: 0
+[19:52:01] [connection] 192.168.43.117:54999 requests connection cookie.
+[19:52:02] [connection] incoming connection: 192.168.43.117:54999 id: 0
+[19:52:02] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[19:52:02] sferasfera
+[19:52:07] [debug] Run time error 6: "Invalid instruction"
+[19:52:07] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:52:07] [debug] AMX backtrace:
+[19:52:07] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[19:52:07] [debug] Run time error 6: "Invalid instruction"
+[19:52:07] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:52:07] [debug] AMX backtrace:
+[19:52:07] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[19:52:18] [chat] [hdhbtrsgn]: тест
+[19:52:18] [debug] Run time error 5: "Invalid memory access"
+[19:52:18] [debug] AMX backtrace:
+[19:52:18] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:53:56] 
+[19:53:56] Server Plugins
+[19:53:56] --------------
+[19:53:56]  Loading plugin: mysql
+[19:53:57]  >> plugin.mysql: R41-4 successfully loaded.
+[19:53:57]   Loaded.
+[19:53:57]  Loading plugin: crashdetect
+[19:53:57]   CrashDetect v4.18.1 is OK.
+[19:53:57]   Loaded.
+[19:53:57]  Loading plugin: streamer
+[19:53:57] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[19:53:57]   Loaded.
+[19:53:57]  Loading plugin: sscanf
+[19:53:57] 
+
+[19:53:57]  ===============================
+
+[19:53:57]       sscanf plugin loaded.     
+
+[19:53:57]          Version:  2.8.1        
+
+[19:53:57]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:53:57]  ===============================
+
+[19:53:57]   Loaded.
+[19:53:57]  Loading plugin: pawnregex
+[19:53:57] Pawn.Regex plugin v1.1 by urShadow loaded
+[19:53:57]   Loaded.
+[19:53:57]  Loading plugin: pawncmd
+[19:53:57] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[19:53:57]   Loaded.
+[19:53:57]  Loaded 6 plugins.
+
+[19:53:57] 
+[19:53:57] Filterscripts
+[19:53:57] ---------------
+[19:53:57]   Loaded 0 filterscripts.
+
+[19:54:01] [SQL]: База данных была успешно подключена
+[19:54:01] Number of vehicle models: 0
+[19:54:15] [connection] 192.168.43.117:65182 requests connection cookie.
+[19:54:16] [connection] incoming connection: 192.168.43.117:65182 id: 0
+[19:54:17] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[19:54:17] sferasfera
+[19:54:20] [debug] Run time error 6: "Invalid instruction"
+[19:54:20] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:54:20] [debug] AMX backtrace:
+[19:54:20] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[19:54:20] [debug] Run time error 6: "Invalid instruction"
+[19:54:20] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:54:20] [debug] AMX backtrace:
+[19:54:20] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[19:54:25] [chat] [hdhbtrsgn]: тес
+[19:54:25] [debug] Run time error 5: "Invalid memory access"
+[19:54:25] [debug] AMX backtrace:
+[19:54:25] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:54:31] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:54:55] 
+[19:54:55] Server Plugins
+[19:54:55] --------------
+[19:54:55]  Loading plugin: mysql
+[19:54:55]  >> plugin.mysql: R41-4 successfully loaded.
+[19:54:55]   Loaded.
+[19:54:55]  Loading plugin: crashdetect
+[19:54:55]   CrashDetect v4.18.1 is OK.
+[19:54:55]   Loaded.
+[19:54:55]  Loading plugin: streamer
+[19:54:55] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[19:54:55]   Loaded.
+[19:54:55]  Loading plugin: sscanf
+[19:54:55] 
+
+[19:54:55]  ===============================
+
+[19:54:55]       sscanf plugin loaded.     
+
+[19:54:55]          Version:  2.8.1        
+
+[19:54:55]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:54:55]  ===============================
+
+[19:54:55]   Loaded.
+[19:54:55]  Loading plugin: pawnregex
+[19:54:55] Pawn.Regex plugin v1.1 by urShadow loaded
+[19:54:55]   Loaded.
+[19:54:55]  Loading plugin: pawncmd
+[19:54:55] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[19:54:55]   Loaded.
+[19:54:55]  Loaded 6 plugins.
+
+[19:54:55] 
+[19:54:55] Filterscripts
+[19:54:55] ---------------
+[19:54:55]   Loaded 0 filterscripts.
+
+[19:55:00] [SQL]: База данных была успешно подключена
+[19:55:00] Number of vehicle models: 0
+[19:55:13] [connection] 192.168.43.117:56448 requests connection cookie.
+[19:55:14] [connection] incoming connection: 192.168.43.117:56448 id: 0
+[19:55:14] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[19:55:14] sferasfera
+[19:55:18] [debug] Run time error 6: "Invalid instruction"
+[19:55:18] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:55:18] [debug] AMX backtrace:
+[19:55:18] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[19:55:18] [debug] Run time error 6: "Invalid instruction"
+[19:55:18] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:55:18] [debug] AMX backtrace:
+[19:55:18] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[19:55:21] [chat] [hdhbtrsgn]: ntc
+[19:55:21] [debug] Run time error 5: "Invalid memory access"
+[19:55:21] [debug] AMX backtrace:
+[19:55:21] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:55:32] [chat] [hdhbtrsgn]: hg
+[19:55:32] [debug] Run time error 5: "Invalid memory access"
+[19:55:32] [debug] AMX backtrace:
+[19:55:32] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:56:12] 
+[19:56:12] Server Plugins
+[19:56:12] --------------
+[19:56:12]  Loading plugin: mysql
+[19:56:12]  >> plugin.mysql: R41-4 successfully loaded.
+[19:56:12]   Loaded.
+[19:56:12]  Loading plugin: crashdetect
+[19:56:12]   CrashDetect v4.18.1 is OK.
+[19:56:12]   Loaded.
+[19:56:12]  Loading plugin: streamer
+[19:56:12] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[19:56:12]   Loaded.
+[19:56:12]  Loading plugin: sscanf
+[19:56:12] 
+
+[19:56:12]  ===============================
+
+[19:56:12]       sscanf plugin loaded.     
+
+[19:56:12]          Version:  2.8.1        
+
+[19:56:12]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:56:12]  ===============================
+
+[19:56:12]   Loaded.
+[19:56:12]  Loading plugin: pawnregex
+[19:56:12] Pawn.Regex plugin v1.1 by urShadow loaded
+[19:56:12]   Loaded.
+[19:56:12]  Loading plugin: pawncmd
+[19:56:12] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[19:56:12]   Loaded.
+[19:56:12]  Loaded 6 plugins.
+
+[19:56:12] 
+[19:56:12] Filterscripts
+[19:56:12] ---------------
+[19:56:12]   Loaded 0 filterscripts.
+
+[19:56:16] [SQL]: База данных была успешно подключена
+[19:56:16] Number of vehicle models: 0
+[19:56:36] [connection] 192.168.43.117:61600 requests connection cookie.
+[19:56:37] [connection] incoming connection: 192.168.43.117:61600 id: 0
+[19:56:38] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[19:56:38] sferasfera
+[19:56:40] [debug] Run time error 6: "Invalid instruction"
+[19:56:40] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:56:40] [debug] AMX backtrace:
+[19:56:40] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[19:56:40] [debug] Run time error 6: "Invalid instruction"
+[19:56:40] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:56:40] [debug] AMX backtrace:
+[19:56:40] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[19:56:53] [chat] [hdhbtrsgn]: dkjfhSKJFfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+[19:57:02] [chat] [hdhbtrsgn]: dkjfhSKJ
+[19:57:02] [debug] Run time error 5: "Invalid memory access"
+[19:57:02] [debug] AMX backtrace:
+[19:57:02] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:57:12] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:57:33] 
+[19:57:33] Server Plugins
+[19:57:33] --------------
+[19:57:33]  Loading plugin: mysql
+[19:57:33]  >> plugin.mysql: R41-4 successfully loaded.
+[19:57:33]   Loaded.
+[19:57:33]  Loading plugin: crashdetect
+[19:57:33]   CrashDetect v4.18.1 is OK.
+[19:57:33]   Loaded.
+[19:57:33]  Loading plugin: streamer
+[19:57:33] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[19:57:33]   Loaded.
+[19:57:33]  Loading plugin: sscanf
+[19:57:33] 
+
+[19:57:33]  ===============================
+
+[19:57:33]       sscanf plugin loaded.     
+
+[19:57:33]          Version:  2.8.1        
+
+[19:57:33]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:57:33]  ===============================
+
+[19:57:33]   Loaded.
+[19:57:33]  Loading plugin: pawnregex
+[19:57:33] Pawn.Regex plugin v1.1 by urShadow loaded
+[19:57:33]   Loaded.
+[19:57:33]  Loading plugin: pawncmd
+[19:57:33] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[19:57:33]   Loaded.
+[19:57:33]  Loaded 6 plugins.
+
+[19:57:33] 
+[19:57:33] Filterscripts
+[19:57:33] ---------------
+[19:57:33]   Loaded 0 filterscripts.
+
+[19:57:37] [SQL]: База данных была успешно подключена
+[19:57:37] Number of vehicle models: 0
+[19:57:50] [connection] 192.168.43.117:61404 requests connection cookie.
+[19:57:51] [connection] incoming connection: 192.168.43.117:61404 id: 0
+[19:57:51] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[19:57:51] sferasfera
+[19:57:54] [debug] Run time error 6: "Invalid instruction"
+[19:57:54] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:57:54] [debug] AMX backtrace:
+[19:57:54] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[19:57:54] [debug] Run time error 6: "Invalid instruction"
+[19:57:54] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:57:54] [debug] AMX backtrace:
+[19:57:54] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[19:58:00] [chat] [hdhbtrsgn]: ntcn
+[19:58:00] [debug] Run time error 5: "Invalid memory access"
+[19:58:00] [debug] AMX backtrace:
+[19:58:00] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:58:19] [chat] [hdhbtrsgn]: тететететет
+[19:58:19] [debug] Run time error 5: "Invalid memory access"
+[19:58:19] [debug] AMX backtrace:
+[19:58:19] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:58:23] [part] hdhbtrsgn has left the server (0:1)
+[20:00:35] [connection] 192.168.43.117:61153 requests connection cookie.
+[20:00:36] [connection] incoming connection: 192.168.43.117:61153 id: 0
+[20:00:36] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[20:00:36] sferasfera
+[20:00:42] [debug] Run time error 6: "Invalid instruction"
+[20:00:42] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:00:42] [debug] AMX backtrace:
+[20:00:42] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[20:00:42] [debug] Run time error 6: "Invalid instruction"
+[20:00:42] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:00:42] [debug] AMX backtrace:
+[20:00:42] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[20:00:48] [part] hdhbtrsgn has left the server (0:1)
+[20:19:58] [connection] 192.168.43.117:56739 requests connection cookie.
+[20:19:59] [connection] incoming connection: 192.168.43.117:56739 id: 0
+[20:20:00] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[20:20:00] sferasfera
+[20:20:03] [debug] Run time error 6: "Invalid instruction"
+[20:20:03] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:20:03] [debug] AMX backtrace:
+[20:20:03] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[20:20:03] [debug] Run time error 6: "Invalid instruction"
+[20:20:03] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:20:03] [debug] AMX backtrace:
+[20:20:03] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[20:20:40] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:42:01] 
+[20:42:01] Server Plugins
+[20:42:01] --------------
+[20:42:01]  Loading plugin: mysql
+[20:42:01]  >> plugin.mysql: R41-4 successfully loaded.
+[20:42:01]   Loaded.
+[20:42:01]  Loading plugin: crashdetect
+[20:42:01]   CrashDetect v4.18.1 is OK.
+[20:42:01]   Loaded.
+[20:42:01]  Loading plugin: streamer
+[20:42:01] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[20:42:01]   Loaded.
+[20:42:01]  Loading plugin: sscanf
+[20:42:01] 
+
+[20:42:01]  ===============================
+
+[20:42:01]       sscanf plugin loaded.     
+
+[20:42:01]          Version:  2.8.1        
+
+[20:42:01]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:42:01]  ===============================
+
+[20:42:01]   Loaded.
+[20:42:01]  Loading plugin: pawnregex
+[20:42:01] Pawn.Regex plugin v1.1 by urShadow loaded
+[20:42:01]   Loaded.
+[20:42:01]  Loading plugin: pawncmd
+[20:42:01] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[20:42:01]   Loaded.
+[20:42:01]  Loaded 6 plugins.
+
+[20:42:02] 
+[20:42:02] Filterscripts
+[20:42:02] ---------------
+[20:42:02]   Loaded 0 filterscripts.
+
+[20:42:06] [SQL]: База данных была успешно подключена
+[20:42:06] Number of vehicle models: 0
+[20:42:12] [connection] 192.168.43.117:57132 requests connection cookie.
+[20:42:13] [connection] incoming connection: 192.168.43.117:57132 id: 0
+[20:42:13] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[20:42:13] sferasfera
+[20:42:16] [debug] Run time error 6: "Invalid instruction"
+[20:42:16] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:42:16] [debug] AMX backtrace:
+[20:42:16] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[20:42:16] [debug] Run time error 6: "Invalid instruction"
+[20:42:16] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:42:16] [debug] AMX backtrace:
+[20:42:16] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[20:42:40] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:44:54] 
+[20:44:54] Server Plugins
+[20:44:54] --------------
+[20:44:54]  Loading plugin: mysql
+[20:44:54]  >> plugin.mysql: R41-4 successfully loaded.
+[20:44:54]   Loaded.
+[20:44:54]  Loading plugin: crashdetect
+[20:44:54]   CrashDetect v4.18.1 is OK.
+[20:44:54]   Loaded.
+[20:44:54]  Loading plugin: streamer
+[20:44:54] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[20:44:54]   Loaded.
+[20:44:54]  Loading plugin: sscanf
+[20:44:54] 
+
+[20:44:54]  ===============================
+
+[20:44:54]       sscanf plugin loaded.     
+
+[20:44:54]          Version:  2.8.1        
+
+[20:44:54]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:44:54]  ===============================
+
+[20:44:54]   Loaded.
+[20:44:54]  Loading plugin: pawnregex
+[20:44:54] Pawn.Regex plugin v1.1 by urShadow loaded
+[20:44:54]   Loaded.
+[20:44:54]  Loading plugin: pawncmd
+[20:44:54] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[20:44:54]   Loaded.
+[20:44:54]  Loaded 6 plugins.
+
+[20:44:54] 
+[20:44:54] Filterscripts
+[20:44:54] ---------------
+[20:44:54]   Loaded 0 filterscripts.
+
+[20:44:58] [SQL]: База данных была успешно подключена
+[20:44:58] Number of vehicle models: 0
+[20:45:12] [connection] 192.168.43.117:56346 requests connection cookie.
+[20:45:13] [connection] incoming connection: 192.168.43.117:56346 id: 0
+[20:45:13] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[20:45:13] sferasfera
+[20:45:17] [debug] Run time error 6: "Invalid instruction"
+[20:45:17] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:45:17] [debug] AMX backtrace:
+[20:45:17] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[20:45:17] [debug] Run time error 6: "Invalid instruction"
+[20:45:17] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:45:17] [debug] AMX backtrace:
+[20:45:17] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[20:46:21] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:49:00] 
+[20:49:00] Server Plugins
+[20:49:00] --------------
+[20:49:00]  Loading plugin: mysql
+[20:49:00]  >> plugin.mysql: R41-4 successfully loaded.
+[20:49:00]   Loaded.
+[20:49:00]  Loading plugin: crashdetect
+[20:49:00]   CrashDetect v4.18.1 is OK.
+[20:49:00]   Loaded.
+[20:49:00]  Loading plugin: streamer
+[20:49:00] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[20:49:00]   Loaded.
+[20:49:00]  Loading plugin: sscanf
+[20:49:00] 
+
+[20:49:00]  ===============================
+
+[20:49:00]       sscanf plugin loaded.     
+
+[20:49:00]          Version:  2.8.1        
+
+[20:49:00]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:49:00]  ===============================
+
+[20:49:00]   Loaded.
+[20:49:00]  Loading plugin: pawnregex
+[20:49:00] Pawn.Regex plugin v1.1 by urShadow loaded
+[20:49:00]   Loaded.
+[20:49:00]  Loading plugin: pawncmd
+[20:49:00] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[20:49:00]   Loaded.
+[20:49:00]  Loaded 6 plugins.
+
+[20:49:00] 
+[20:49:00] Filterscripts
+[20:49:00] ---------------
+[20:49:00]   Loaded 0 filterscripts.
+
+[20:49:04] [SQL]: База данных была успешно подключена
+[20:49:04] Number of vehicle models: 0
+[20:49:17] [connection] 192.168.43.117:55389 requests connection cookie.
+[20:49:18] [connection] incoming connection: 192.168.43.117:55389 id: 0
+[20:49:18] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[20:49:18] sferasfera
+[20:49:22] [debug] Run time error 6: "Invalid instruction"
+[20:49:22] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:49:22] [debug] AMX backtrace:
+[20:49:22] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[20:49:22] [debug] Run time error 6: "Invalid instruction"
+[20:49:22] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:49:22] [debug] AMX backtrace:
+[20:49:22] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[20:50:07] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:59:30] 
+[20:59:30] Server Plugins
+[20:59:30] --------------
+[20:59:30]  Loading plugin: mysql
+[20:59:30]  >> plugin.mysql: R41-4 successfully loaded.
+[20:59:30]   Loaded.
+[20:59:30]  Loading plugin: crashdetect
+[20:59:30]   CrashDetect v4.18.1 is OK.
+[20:59:30]   Loaded.
+[20:59:30]  Loading plugin: streamer
+[20:59:30] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[20:59:30]   Loaded.
+[20:59:30]  Loading plugin: sscanf
+[20:59:30] 
+
+[20:59:30]  ===============================
+
+[20:59:30]       sscanf plugin loaded.     
+
+[20:59:30]          Version:  2.8.1        
+
+[20:59:30]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:59:30]  ===============================
+
+[20:59:30]   Loaded.
+[20:59:30]  Loading plugin: pawnregex
+[20:59:30] Pawn.Regex plugin v1.1 by urShadow loaded
+[20:59:30]   Loaded.
+[20:59:30]  Loading plugin: pawncmd
+[20:59:30] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[20:59:30]   Loaded.
+[20:59:30]  Loaded 6 plugins.
+
+[20:59:30] 
+[20:59:30] Filterscripts
+[20:59:30] ---------------
+[20:59:30]   Loaded 0 filterscripts.
+
+[20:59:34] [SQL]: База данных была успешно подключена
+[20:59:34] Number of vehicle models: 0
+[20:59:48] [connection] 192.168.43.117:60578 requests connection cookie.
+[20:59:49] [connection] incoming connection: 192.168.43.117:60578 id: 0
+[20:59:49] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[20:59:49] sferasfera
+[20:59:54] [debug] Run time error 6: "Invalid instruction"
+[20:59:54] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:59:54] [debug] AMX backtrace:
+[20:59:54] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[20:59:54] [debug] Run time error 6: "Invalid instruction"
+[20:59:54] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:59:54] [debug] AMX backtrace:
+[20:59:54] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[21:00:54] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:02:34] 
+[21:02:34] Server Plugins
+[21:02:34] --------------
+[21:02:34]  Loading plugin: mysql
+[21:02:34]  >> plugin.mysql: R41-4 successfully loaded.
+[21:02:34]   Loaded.
+[21:02:34]  Loading plugin: crashdetect
+[21:02:34]   CrashDetect v4.18.1 is OK.
+[21:02:34]   Loaded.
+[21:02:34]  Loading plugin: streamer
+[21:02:34] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[21:02:34]   Loaded.
+[21:02:34]  Loading plugin: sscanf
+[21:02:34] 
+
+[21:02:34]  ===============================
+
+[21:02:34]       sscanf plugin loaded.     
+
+[21:02:34]          Version:  2.8.1        
+
+[21:02:34]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:02:34]  ===============================
+
+[21:02:34]   Loaded.
+[21:02:34]  Loading plugin: pawnregex
+[21:02:34] Pawn.Regex plugin v1.1 by urShadow loaded
+[21:02:34]   Loaded.
+[21:02:34]  Loading plugin: pawncmd
+[21:02:34] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[21:02:34]   Loaded.
+[21:02:34]  Loaded 6 plugins.
+
+[21:02:34] 
+[21:02:34] Filterscripts
+[21:02:34] ---------------
+[21:02:34]   Loaded 0 filterscripts.
+
+[21:02:38] [SQL]: База данных была успешно подключена
+[21:02:38] Number of vehicle models: 0
+[21:02:52] [connection] 192.168.43.117:50824 requests connection cookie.
+[21:02:53] [connection] incoming connection: 192.168.43.117:50824 id: 0
+[21:02:53] [join] hdhbtrsgn has joined the server (0:192.168.43.117)
+[21:02:53] sferasfera
+[21:03:02] [debug] Run time error 6: "Invalid instruction"
+[21:03:02] [debug]  Unknown opcode 0x0 at address 0x00000004
+[21:03:02] [debug] AMX backtrace:
+[21:03:02] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[21:03:02] [debug] Run time error 6: "Invalid instruction"
+[21:03:02] [debug]  Unknown opcode 0x0 at address 0x00000004
+[21:03:02] [debug] AMX backtrace:
+[21:03:02] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[21:06:37] [part] hdhbtrsgn has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:44:33] 
+[23:44:33] Server Plugins
+[23:44:33] --------------
+[23:44:33]  Loading plugin: mysql
+[23:44:33]  >> plugin.mysql: R41-4 successfully loaded.
+[23:44:33]   Loaded.
+[23:44:33]  Loading plugin: crashdetect
+[23:44:33]   CrashDetect v4.18.1 is OK.
+[23:44:33]   Loaded.
+[23:44:33]  Loading plugin: streamer
+[23:44:33] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[23:44:33]   Loaded.
+[23:44:33]  Loading plugin: sscanf
+[23:44:33] 
+
+[23:44:33]  ===============================
+
+[23:44:33]       sscanf plugin loaded.     
+
+[23:44:33]          Version:  2.8.1        
+
+[23:44:33]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:44:33]  ===============================
+
+[23:44:33]   Loaded.
+[23:44:33]  Loading plugin: pawnregex
+[23:44:33] Pawn.Regex plugin v1.1 by urShadow loaded
+[23:44:33]   Loaded.
+[23:44:33]  Loading plugin: pawncmd
+[23:44:33] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[23:44:33]   Loaded.
+[23:44:33]  Loaded 6 plugins.
+
+[23:44:35] 
+[23:44:35] Filterscripts
+[23:44:35] ---------------
+[23:44:35]   Loaded 0 filterscripts.
+
+[23:44:39] [SQL]: База данных была успешно подключена
+[23:44:39] Number of vehicle models: 0
+[23:44:56] [connection] 127.0.0.1:49948 requests connection cookie.
+[23:44:57] [connection] incoming connection: 127.0.0.1:49948 id: 0
+[23:44:57] [join] Ruslan_Valeriev has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:47:21] 
+[23:47:21] Server Plugins
+[23:47:21] --------------
+[23:47:21]  Loading plugin: mysql
+[23:47:21]  >> plugin.mysql: R41-4 successfully loaded.
+[23:47:21]   Loaded.
+[23:47:21]  Loading plugin: crashdetect
+[23:47:21]   CrashDetect v4.18.1 is OK.
+[23:47:21]   Loaded.
+[23:47:21]  Loading plugin: streamer
+[23:47:21] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[23:47:21]   Loaded.
+[23:47:21]  Loading plugin: sscanf
+[23:47:21] 
+
+[23:47:21]  ===============================
+
+[23:47:21]       sscanf plugin loaded.     
+
+[23:47:21]          Version:  2.8.1        
+
+[23:47:21]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:47:21]  ===============================
+
+[23:47:21]   Loaded.
+[23:47:21]  Loading plugin: pawnregex
+[23:47:21] Pawn.Regex plugin v1.1 by urShadow loaded
+[23:47:21]   Loaded.
+[23:47:21]  Loading plugin: pawncmd
+[23:47:21] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[23:47:21]   Loaded.
+[23:47:21]  Loaded 6 plugins.
+
+[23:47:21] 
+[23:47:21] Filterscripts
+[23:47:21] ---------------
+[23:47:21]   Loaded 0 filterscripts.
+
+[23:47:25] [SQL]: База данных была успешно подключена
+[23:47:25] Number of vehicle models: 0
+[23:47:43] [connection] 192.168.43.117:49949 requests connection cookie.
+[23:47:44] [connection] incoming connection: 192.168.43.117:49949 id: 0
+[23:47:44] [join] Mortis_Grave has joined the server (0:192.168.43.117)
+[23:47:44] sferasfera
+[23:47:48] [debug] Run time error 6: "Invalid instruction"
+[23:47:48] [debug]  Unknown opcode 0x0 at address 0x00000004
+[23:47:48] [debug] AMX backtrace:
+[23:47:48] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[23:47:48] [debug] Run time error 6: "Invalid instruction"
+[23:47:48] [debug]  Unknown opcode 0x0 at address 0x00000004
+[23:47:48] [debug] AMX backtrace:
+[23:47:48] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[23:49:49] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:53:52] 
+[12:53:52] Server Plugins
+[12:53:52] --------------
+[12:53:52]  Loading plugin: mysql
+[12:53:53]  >> plugin.mysql: R41-4 successfully loaded.
+[12:53:53]   Loaded.
+[12:53:53]  Loading plugin: crashdetect
+[12:53:53]   CrashDetect v4.18.1 is OK.
+[12:53:53]   Loaded.
+[12:53:53]  Loading plugin: streamer
+[12:53:53] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[12:53:53]   Loaded.
+[12:53:53]  Loading plugin: sscanf
+[12:53:53] 
+
+[12:53:53]  ===============================
+
+[12:53:53]       sscanf plugin loaded.     
+
+[12:53:53]          Version:  2.8.1        
+
+[12:53:53]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:53:53]  ===============================
+
+[12:53:53]   Loaded.
+[12:53:53]  Loading plugin: pawnregex
+[12:53:53] Pawn.Regex plugin v1.1 by urShadow loaded
+[12:53:53]   Loaded.
+[12:53:53]  Loading plugin: pawncmd
+[12:53:53] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[12:53:53]   Loaded.
+[12:53:53]  Loaded 6 plugins.
+
+[12:53:53] 
+[12:53:53] Filterscripts
+[12:53:53] ---------------
+[12:53:53]   Loaded 0 filterscripts.
+
+[12:53:57] [SQL]: База данных была успешно подключена
+[12:53:57] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:54:12] 
+[12:54:12] Server Plugins
+[12:54:12] --------------
+[12:54:12]  Loading plugin: mysql
+[12:54:12]  >> plugin.mysql: R41-4 successfully loaded.
+[12:54:12]   Loaded.
+[12:54:12]  Loading plugin: crashdetect
+[12:54:12]   CrashDetect v4.18.1 is OK.
+[12:54:12]   Loaded.
+[12:54:12]  Loading plugin: streamer
+[12:54:12] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[12:54:12]   Loaded.
+[12:54:12]  Loading plugin: sscanf
+[12:54:12] 
+
+[12:54:12]  ===============================
+
+[12:54:12]       sscanf plugin loaded.     
+
+[12:54:12]          Version:  2.8.1        
+
+[12:54:12]    (c) 2012 Alex "Y_Less" Cole  
+
+[12:54:12]  ===============================
+
+[12:54:12]   Loaded.
+[12:54:12]  Loading plugin: pawnregex
+[12:54:12] Pawn.Regex plugin v1.1 by urShadow loaded
+[12:54:12]   Loaded.
+[12:54:12]  Loading plugin: pawncmd
+[12:54:12] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[12:54:12]   Loaded.
+[12:54:12]  Loaded 6 plugins.
+
+[12:54:12] 
+[12:54:12] Filterscripts
+[12:54:12] ---------------
+[12:54:12]   Loaded 0 filterscripts.
+
+[12:54:16] [SQL]: База данных была успешно подключена
+[12:54:17] Number of vehicle models: 0
+[12:54:40] [connection] 127.0.0.1:49954 requests connection cookie.
+[12:54:41] [connection] incoming connection: 127.0.0.1:49954 id: 0
+[12:54:41] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[12:54:41] sferasfera
+[12:54:46] [debug] Run time error 6: "Invalid instruction"
+[12:54:46] [debug]  Unknown opcode 0x0 at address 0x00000004
+[12:54:46] [debug] AMX backtrace:
+[12:54:46] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[12:54:46] [debug] Run time error 6: "Invalid instruction"
+[12:54:46] [debug]  Unknown opcode 0x0 at address 0x00000004
+[12:54:46] [debug] AMX backtrace:
+[12:54:46] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[12:56:57] [part] Mortis_Grave has left the server (0:1)

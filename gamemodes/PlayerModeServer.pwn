@@ -24,6 +24,9 @@
 
 
 //================================= Переменные =================================
+//----------------------------------- Пикапы -----------------------------------
+new pickups[2];
+//------------------------------------------------------------------------------
 //----------------------------------- Мусорка ----------------------------------
 new MySQL:dbHandle;
 //------------------------------------------------------------------------------
@@ -66,6 +69,9 @@ main() return true;
 
 public OnGameModeInit()
 {
+    DisableInteriorEnterExits();
+	LoadInteriors();
+	LoadPickups();
 	ConnectSQL();
 	return 1;
 }
@@ -82,6 +88,17 @@ stock ConnectSQL()
 	}
 	mysql_log(ERROR | WARNING);
  	return 1;
+}
+
+stock LoadInteriors()
+{
+	#include <interiors\Police Departament.inc>
+}
+
+stock LoadPickups()
+{
+    pickups[0] = CreatePickup(1318,23,1555.0691,-1675.5140,16.1953); // Пикап входа в LSPD
+	pickups[1] = CreatePickup(1318,23,16.9403,1513.0972,1086.0869); // Пикап выхода с LSPD
 }
 
 public OnGameModeExit()
@@ -155,7 +172,14 @@ public OnPlayerDisconnect(playerid, reason)
 }
 
 public OnPlayerSpawn(playerid)
-{
+{   if(SetPVarInt(playerid, "logged") == 0)
+	{
+	    SCM(playerid, COLOR_RED, "[Ошибка]{FFFFFF} Для игры на сервере нужно авторизоваться!");
+		Kick(playerid);
+	}
+	SetPlayerPos(playerid, 1760.7123,-1895.0684,13.5611);
+	SetPlayerFacingAngle(playerid, 269.9680);
+	SetCameraBehindPlayer(playerid);
 	return 1;
 }
 
@@ -176,15 +200,10 @@ public OnVehicleDeath(vehicleid, killerid)
 
 public OnPlayerText(playerid, text[])
 {
-	if(GetPVarInt(playerid, "logged") == 0)
-	{
-	    SCM(playerid, COLOR_RED, "[Ошибка] {FFFFFF}Для написания сообщения нужно авторизоваться!");
-		return Kick(playerid);
-	}
 	new string[144];
-	if(strlen(text) < 113)
+ 	if(strlen(text) < 113)
 	{
-		format(string, sizeof(string), "%s[%d]: %d", player_info[playerid][NAME], playerid, text);
+ 		format(string, sizeof(string), "%s[%d]: %s", player_info[playerid][NAME], playerid, text);
 		ProxDetector(20.0, playerid, string, COLOR_WHITE, COLOR_WHITE, COLOR_WHITE, COLOR_WHITE, COLOR_WHITE);
 		SetPlayerChatBubble(playerid, text, COLOR_WHITE, 7500);
 		if(GetPlayerState(playerid) == PLAYER_STATE_ONFOOT)
@@ -192,13 +211,14 @@ public OnPlayerText(playerid, text[])
 		    ApplyAnimation(playerid, "PED", "IDLE_chat", 4.1, 0, 1, 1, 1, 1);
 		    SetTimerEx("StopChatAnim", 3200, false, "d", playerid);
 		}
-	}
+		return 0;
+ 	}
 	else
 	{
 	    SCM(playerid, COLOR_RED, "Ваше сообщение слишком длинное!");
 	    return 0;
 	}
-	return 1;
+	return 0;
 }
 forward StopChatAnim(playerid);
 public StopChatAnim(playerid)
@@ -269,6 +289,22 @@ public OnPlayerObjectMoved(playerid, objectid)
 
 public OnPlayerPickUpPickup(playerid, pickupid)
 {
+    if(pickupid == pickups[0]) // вход
+	{
+	    SetPlayerInterior(playerid, 1);
+		SetPlayerPos(playerid, 17.0409,1510.6080,1086.0869);// это само появление в интерьере после телепорта
+		SetCameraBehindPlayer(playerid);
+		SetPlayerFacingAngle(playerid, 175.7587);
+		SetPlayerVirtualWorld(playerid, 0); //это ид виртуально мира
+	}
+	if(pickupid == pickups[1]) // выход
+	{
+		SetPlayerInterior(playerid, 0); // ид интерьера , тут 0 так как мы выходим на улицу
+		SetPlayerPos(playerid, 1552.7452,-1675.5271,16.1953);//координаты телепорта
+		SetCameraBehindPlayer(playerid);
+		SetPlayerFacingAngle(playerid, 96.3799);
+		SetPlayerVirtualWorld(playerid, 0); // ид виртуал мира ну так как выход то тогда 0 !
+	}
 	return 1;
 }
 
@@ -315,6 +351,23 @@ public OnRconLoginAttempt(ip[], password[], success)
 public OnPlayerUpdate(playerid)
 {
 	return 1;
+}
+
+public OnPlayerClickMap(playerid, Float:fX, Float:fY, Float:fZ)
+{
+        if(player_info[playerid][ADMIN] >= 4)
+        {
+                new vehicleid = GetPlayerVehicleID(playerid);
+                if(vehicleid > 0 && GetPlayerState(playerid) == PLAYER_STATE_DRIVER)
+                {
+                        SetVehiclePos(vehicleid, fX, fY, fZ);
+                }
+                else
+                {
+                        SetPlayerPos(playerid, fX, fY, fZ); 
+                }
+        }
+        return 1;
 }
 
 public OnPlayerStreamIn(playerid, forplayerid)
@@ -547,11 +600,7 @@ public PlayerLogin(playerid)
 		cache_get_value_name_int(0, "admin", player_info[playerid][ADMIN]);
 		
 		TogglePlayerSpectating(playerid, 0);
-		SetPVarInt(playerid, "logged", 1);
 		SetSpawnInfo(playerid, 0, SKIN, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-		//SetPlayerPos(playerid, 1760.7123, -1895.0684, 13.5611);
-		//SetPlayerFacingAngle(playerid,270.0);
-		//SetCameraBehindPlayer(playerid);
 		SpawnPlayer(playerid);
 	}
 	return 1;
