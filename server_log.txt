@@ -9922,3 +9922,1756 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [12:54:46] [debug] AMX backtrace:
 [12:54:46] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
 [12:56:57] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:03:50] 
+[15:03:50] Server Plugins
+[15:03:50] --------------
+[15:03:50]  Loading plugin: mysql
+[15:03:50]  >> plugin.mysql: R41-4 successfully loaded.
+[15:03:50]   Loaded.
+[15:03:50]  Loading plugin: crashdetect
+[15:03:50]   CrashDetect v4.18.1 is OK.
+[15:03:50]   Loaded.
+[15:03:50]  Loading plugin: streamer
+[15:03:50] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[15:03:50]   Loaded.
+[15:03:50]  Loading plugin: sscanf
+[15:03:50] 
+
+[15:03:50]  ===============================
+
+[15:03:50]       sscanf plugin loaded.     
+
+[15:03:50]          Version:  2.8.1        
+
+[15:03:50]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:03:50]  ===============================
+
+[15:03:50]   Loaded.
+[15:03:50]  Loading plugin: pawnregex
+[15:03:50] Pawn.Regex plugin v1.1 by urShadow loaded
+[15:03:50]   Loaded.
+[15:03:50]  Loading plugin: pawncmd
+[15:03:50] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[15:03:50]   Loaded.
+[15:03:50]  Loaded 6 plugins.
+
+[15:03:50] 
+[15:03:50] Filterscripts
+[15:03:50] ---------------
+[15:03:50]   Loaded 0 filterscripts.
+
+[15:03:54] [SQL]: Ѕаза данных была успешно подключена
+[15:03:54] Number of vehicle models: 0
+[15:04:08] [connection] 127.0.0.1:56134 requests connection cookie.
+[15:04:09] [connection] incoming connection: 127.0.0.1:56134 id: 0
+[15:04:09] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[15:04:09] sferasfera
+[15:04:13] [debug] Run time error 6: "Invalid instruction"
+[15:04:13] [debug]  Unknown opcode 0x0 at address 0x00000004
+[15:04:13] [debug] AMX backtrace:
+[15:04:13] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[15:04:13] [debug] Run time error 6: "Invalid instruction"
+[15:04:13] [debug]  Unknown opcode 0x0 at address 0x00000004
+[15:04:13] [debug] AMX backtrace:
+[15:04:13] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[15:04:57] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:06:18] 
+[15:06:18] Server Plugins
+[15:06:18] --------------
+[15:06:18]  Loading plugin: mysql
+[15:06:18]  >> plugin.mysql: R41-4 successfully loaded.
+[15:06:18]   Loaded.
+[15:06:18]  Loading plugin: crashdetect
+[15:06:18]   CrashDetect v4.18.1 is OK.
+[15:06:18]   Loaded.
+[15:06:18]  Loading plugin: streamer
+[15:06:18] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[15:06:18]   Loaded.
+[15:06:18]  Loading plugin: sscanf
+[15:06:18] 
+
+[15:06:18]  ===============================
+
+[15:06:18]       sscanf plugin loaded.     
+
+[15:06:18]          Version:  2.8.1        
+
+[15:06:18]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:06:18]  ===============================
+
+[15:06:18]   Loaded.
+[15:06:18]  Loading plugin: pawnregex
+[15:06:18] Pawn.Regex plugin v1.1 by urShadow loaded
+[15:06:18]   Loaded.
+[15:06:18]  Loading plugin: pawncmd
+[15:06:18] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[15:06:18]   Loaded.
+[15:06:18]  Loaded 6 plugins.
+
+[15:06:18] 
+[15:06:18] Filterscripts
+[15:06:18] ---------------
+[15:06:18]   Loaded 0 filterscripts.
+
+[15:06:22] [SQL]: Ѕаза данных была успешно подключена
+[15:06:22] Number of vehicle models: 0
+[15:06:35] [connection] 127.0.0.1:55353 requests connection cookie.
+[15:06:36] [connection] incoming connection: 127.0.0.1:55353 id: 0
+[15:06:36] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[15:06:36] sferasfera
+[15:06:40] [debug] Run time error 6: "Invalid instruction"
+[15:06:40] [debug]  Unknown opcode 0x0 at address 0x00000004
+[15:06:40] [debug] AMX backtrace:
+[15:06:40] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[15:06:40] [debug] Run time error 6: "Invalid instruction"
+[15:06:40] [debug]  Unknown opcode 0x0 at address 0x00000004
+[15:06:40] [debug] AMX backtrace:
+[15:06:40] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:08:00] 
+[15:08:00] Server Plugins
+[15:08:00] --------------
+[15:08:00]  Loading plugin: mysql
+[15:08:00]  >> plugin.mysql: R41-4 successfully loaded.
+[15:08:00]   Loaded.
+[15:08:00]  Loading plugin: crashdetect
+[15:08:00]   CrashDetect v4.18.1 is OK.
+[15:08:00]   Loaded.
+[15:08:00]  Loading plugin: streamer
+[15:08:00] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[15:08:00]   Loaded.
+[15:08:00]  Loading plugin: sscanf
+[15:08:00] 
+
+[15:08:00]  ===============================
+
+[15:08:00]       sscanf plugin loaded.     
+
+[15:08:00]          Version:  2.8.1        
+
+[15:08:00]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:08:00]  ===============================
+
+[15:08:00]   Loaded.
+[15:08:00]  Loading plugin: pawnregex
+[15:08:00] Pawn.Regex plugin v1.1 by urShadow loaded
+[15:08:00]   Loaded.
+[15:08:00]  Loading plugin: pawncmd
+[15:08:00] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[15:08:00]   Loaded.
+[15:08:00]  Loaded 6 plugins.
+
+[15:08:00] 
+[15:08:00] Filterscripts
+[15:08:00] ---------------
+[15:08:00]   Loaded 0 filterscripts.
+
+[15:08:04] [SQL]: Ѕаза данных была успешно подключена
+[15:08:04] Number of vehicle models: 0
+[15:08:17] [connection] 127.0.0.1:58209 requests connection cookie.
+[15:08:18] [connection] incoming connection: 127.0.0.1:58209 id: 0
+[15:08:18] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[15:08:18] sferasfera
+[15:08:22] [debug] Run time error 6: "Invalid instruction"
+[15:08:22] [debug]  Unknown opcode 0x0 at address 0x00000004
+[15:08:22] [debug] AMX backtrace:
+[15:08:22] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[15:08:22] [debug] Run time error 6: "Invalid instruction"
+[15:08:22] [debug]  Unknown opcode 0x0 at address 0x00000004
+[15:08:22] [debug] AMX backtrace:
+[15:08:22] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:12:40] 
+[15:12:40] Server Plugins
+[15:12:40] --------------
+[15:12:40]  Loading plugin: mysql
+[15:12:40]  >> plugin.mysql: R41-4 successfully loaded.
+[15:12:40]   Loaded.
+[15:12:40]  Loading plugin: crashdetect
+[15:12:40]   CrashDetect v4.18.1 is OK.
+[15:12:40]   Loaded.
+[15:12:40]  Loading plugin: streamer
+[15:12:40] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[15:12:40]   Loaded.
+[15:12:40]  Loading plugin: sscanf
+[15:12:40] 
+
+[15:12:40]  ===============================
+
+[15:12:40]       sscanf plugin loaded.     
+
+[15:12:40]          Version:  2.8.1        
+
+[15:12:40]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:12:40]  ===============================
+
+[15:12:40]   Loaded.
+[15:12:40]  Loading plugin: pawnregex
+[15:12:40] Pawn.Regex plugin v1.1 by urShadow loaded
+[15:12:40]   Loaded.
+[15:12:40]  Loading plugin: pawncmd
+[15:12:40] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[15:12:40]   Loaded.
+[15:12:40]  Loaded 6 plugins.
+
+[15:12:40] 
+[15:12:40] Filterscripts
+[15:12:40] ---------------
+[15:12:40]   Loaded 0 filterscripts.
+
+[15:12:45] [SQL]: Ѕаза данных была успешно подключена
+[15:12:45] Number of vehicle models: 0
+[15:12:58] [connection] 127.0.0.1:62946 requests connection cookie.
+[15:12:59] [connection] incoming connection: 127.0.0.1:62946 id: 0
+[15:12:59] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[15:12:59] sferasfera
+[15:13:02] [debug] Run time error 6: "Invalid instruction"
+[15:13:02] [debug]  Unknown opcode 0x0 at address 0x00000004
+[15:13:02] [debug] AMX backtrace:
+[15:13:02] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[15:13:02] [debug] Run time error 6: "Invalid instruction"
+[15:13:02] [debug]  Unknown opcode 0x0 at address 0x00000004
+[15:13:02] [debug] AMX backtrace:
+[15:13:02] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[15:13:39] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:21:54] 
+[15:21:54] Server Plugins
+[15:21:54] --------------
+[15:21:54]  Loading plugin: mysql
+[15:21:54]  >> plugin.mysql: R41-4 successfully loaded.
+[15:21:54]   Loaded.
+[15:21:54]  Loading plugin: crashdetect
+[15:21:54]   CrashDetect v4.18.1 is OK.
+[15:21:54]   Loaded.
+[15:21:54]  Loading plugin: streamer
+[15:21:54] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[15:21:54]   Loaded.
+[15:21:54]  Loading plugin: sscanf
+[15:21:54] 
+
+[15:21:54]  ===============================
+
+[15:21:54]       sscanf plugin loaded.     
+
+[15:21:54]          Version:  2.8.1        
+
+[15:21:54]    (c) 2012 Alex "Y_Less" Cole  
+
+[15:21:54]  ===============================
+
+[15:21:54]   Loaded.
+[15:21:54]  Loading plugin: pawnregex
+[15:21:54] Pawn.Regex plugin v1.1 by urShadow loaded
+[15:21:54]   Loaded.
+[15:21:54]  Loading plugin: pawncmd
+[15:21:54] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[15:21:54]   Loaded.
+[15:21:54]  Loaded 6 plugins.
+
+[15:21:54] 
+[15:21:54] Filterscripts
+[15:21:54] ---------------
+[15:21:54]   Loaded 0 filterscripts.
+
+[15:21:58] [SQL]: Ѕаза данных была успешно подключена
+[15:21:58] Number of vehicle models: 0
+[15:21:59] [connection] 127.0.0.1:54942 requests connection cookie.
+[15:22:00] [connection] incoming connection: 127.0.0.1:54942 id: 0
+[15:22:00] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[15:22:00] sferasfera
+[15:22:06] [debug] Run time error 6: "Invalid instruction"
+[15:22:06] [debug]  Unknown opcode 0x0 at address 0x00000004
+[15:22:06] [debug] AMX backtrace:
+[15:22:06] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[15:22:06] [debug] Run time error 6: "Invalid instruction"
+[15:22:06] [debug]  Unknown opcode 0x0 at address 0x00000004
+[15:22:06] [debug] AMX backtrace:
+[15:22:06] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[15:22:33] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:17:04] 
+[17:17:04] Server Plugins
+[17:17:04] --------------
+[17:17:04]  Loading plugin: mysql
+[17:17:04]  >> plugin.mysql: R41-4 successfully loaded.
+[17:17:04]   Loaded.
+[17:17:04]  Loading plugin: crashdetect
+[17:17:04]   CrashDetect v4.18.1 is OK.
+[17:17:04]   Loaded.
+[17:17:04]  Loading plugin: streamer
+[17:17:04] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[17:17:04]   Loaded.
+[17:17:04]  Loading plugin: sscanf
+[17:17:04] 
+
+[17:17:04]  ===============================
+
+[17:17:04]       sscanf plugin loaded.     
+
+[17:17:04]          Version:  2.8.1        
+
+[17:17:05]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:17:05]  ===============================
+
+[17:17:05]   Loaded.
+[17:17:05]  Loading plugin: pawnregex
+[17:17:05] Pawn.Regex plugin v1.1 by urShadow loaded
+[17:17:05]   Loaded.
+[17:17:05]  Loading plugin: pawncmd
+[17:17:05] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[17:17:05]   Loaded.
+[17:17:05]  Loaded 6 plugins.
+
+[17:17:05] 
+[17:17:05] Filterscripts
+[17:17:05] ---------------
+[17:17:05]   Loaded 0 filterscripts.
+
+[17:17:09] [SQL]: Ѕаза данных была успешно подключена
+[17:17:09] Number of vehicle models: 0
+[17:17:28] [connection] 127.0.0.1:52674 requests connection cookie.
+[17:17:29] [connection] incoming connection: 127.0.0.1:52674 id: 0
+[17:17:29] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[17:17:29] sferasfera
+[17:17:33] [debug] Run time error 6: "Invalid instruction"
+[17:17:33] [debug]  Unknown opcode 0x0 at address 0x00000004
+[17:17:33] [debug] AMX backtrace:
+[17:17:33] [debug] #0 00000004 in public PlayerLogin () from PlayerModeServer.amx
+[17:17:33] [debug] Run time error 6: "Invalid instruction"
+[17:17:33] [debug]  Unknown opcode 0x0 at address 0x00000004
+[17:17:33] [debug] AMX backtrace:
+[17:17:33] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[17:17:59] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:28:53] 
+[17:28:53] Server Plugins
+[17:28:53] --------------
+[17:28:53]  Loading plugin: mysql
+[17:28:53]  >> plugin.mysql: R41-4 successfully loaded.
+[17:28:53]   Loaded.
+[17:28:53]  Loading plugin: crashdetect
+[17:28:53]   CrashDetect v4.18.1 is OK.
+[17:28:53]   Loaded.
+[17:28:53]  Loading plugin: streamer
+[17:28:53] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[17:28:53]   Loaded.
+[17:28:53]  Loading plugin: sscanf
+[17:28:53] 
+
+[17:28:53]  ===============================
+
+[17:28:53]       sscanf plugin loaded.     
+
+[17:28:53]          Version:  2.8.1        
+
+[17:28:53]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:28:53]  ===============================
+
+[17:28:53]   Loaded.
+[17:28:53]  Loading plugin: pawnregex
+[17:28:53] Pawn.Regex plugin v1.1 by urShadow loaded
+[17:28:53]   Loaded.
+[17:28:53]  Loading plugin: pawncmd
+[17:28:53] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[17:28:53]   Loaded.
+[17:28:53]  Loaded 6 plugins.
+
+[17:28:53] 
+[17:28:53] Filterscripts
+[17:28:53] ---------------
+[17:28:53]   Loaded 0 filterscripts.
+
+[17:28:57] [SQL]: Ѕаза данных была успешно подключена
+[17:28:57] Number of vehicle models: 0
+[17:29:10] [connection] 127.0.0.1:53654 requests connection cookie.
+[17:29:11] [connection] incoming connection: 127.0.0.1:53654 id: 0
+[17:29:11] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[17:29:11] sferasfera
+[17:29:14] [debug] Run time error 6: "Invalid instruction"
+[17:29:14] [debug]  Unknown opcode 0x0 at address 0x00000004
+[17:29:14] [debug] AMX backtrace:
+[17:29:14] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[17:29:30] [chat] [Mortis_Grave]: тест
+[17:29:30] [debug] Run time error 5: "Invalid memory access"
+[17:29:30] [debug] AMX backtrace:
+[17:29:30] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[17:29:35] [part] Mortis_Grave has left the server (0:1)
+[17:29:57] [connection] 127.0.0.1:57481 requests connection cookie.
+[17:29:58] [connection] incoming connection: 127.0.0.1:57481 id: 0
+[17:29:58] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[17:29:58] sferasfera
+[17:30:05] [debug] Run time error 6: "Invalid instruction"
+[17:30:05] [debug]  Unknown opcode 0x0 at address 0x00000004
+[17:30:05] [debug] AMX backtrace:
+[17:30:05] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[17:31:03] [part] Mortis_Grave has left the server (0:1)
+[17:31:45] [connection] 127.0.0.1:53144 requests connection cookie.
+[17:31:46] [connection] incoming connection: 127.0.0.1:53144 id: 0
+[17:31:47] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[17:31:47] sferasfera
+[17:31:51] [debug] Run time error 6: "Invalid instruction"
+[17:31:51] [debug]  Unknown opcode 0x0 at address 0x00000004
+[17:31:51] [debug] AMX backtrace:
+[17:31:51] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[17:36:24] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:36:44] 
+[17:36:44] Server Plugins
+[17:36:44] --------------
+[17:36:44]  Loading plugin: mysql
+[17:36:45]  >> plugin.mysql: R41-4 successfully loaded.
+[17:36:45]   Loaded.
+[17:36:45]  Loading plugin: crashdetect
+[17:36:45]   CrashDetect v4.18.1 is OK.
+[17:36:45]   Loaded.
+[17:36:45]  Loading plugin: streamer
+[17:36:45] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[17:36:45]   Loaded.
+[17:36:45]  Loading plugin: sscanf
+[17:36:45] 
+
+[17:36:45]  ===============================
+
+[17:36:45]       sscanf plugin loaded.     
+
+[17:36:45]          Version:  2.8.1        
+
+[17:36:45]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:36:45]  ===============================
+
+[17:36:45]   Loaded.
+[17:36:45]  Loading plugin: pawnregex
+[17:36:45] Pawn.Regex plugin v1.1 by urShadow loaded
+[17:36:45]   Loaded.
+[17:36:45]  Loading plugin: pawncmd
+[17:36:45] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[17:36:45]   Loaded.
+[17:36:45]  Loaded 6 plugins.
+
+[17:36:45] 
+[17:36:45] Filterscripts
+[17:36:45] ---------------
+[17:36:45]   Loaded 0 filterscripts.
+
+[17:36:49] [SQL]: Ѕаза данных была успешно подключена
+[17:36:49] Number of vehicle models: 0
+[17:37:04] [connection] 127.0.0.1:51955 requests connection cookie.
+[17:37:05] [connection] incoming connection: 127.0.0.1:51955 id: 0
+[17:37:05] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[17:37:05] sferasfera
+[17:37:11] [debug] Run time error 6: "Invalid instruction"
+[17:37:11] [debug]  Unknown opcode 0x0 at address 0x00000004
+[17:37:11] [debug] AMX backtrace:
+[17:37:11] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[17:37:31] [part] Mortis_Grave has left the server (0:1)
+[17:39:09] [connection] 127.0.0.1:51466 requests connection cookie.
+[17:39:10] [connection] incoming connection: 127.0.0.1:51466 id: 0
+[17:39:10] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[17:39:10] sferasfera
+[17:39:18] [debug] Run time error 6: "Invalid instruction"
+[17:39:18] [debug]  Unknown opcode 0x0 at address 0x00000004
+[17:39:18] [debug] AMX backtrace:
+[17:39:18] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[17:39:29] [part] Mortis_Grave has left the server (0:1)
+[17:40:21] [connection] 127.0.0.1:53962 requests connection cookie.
+[17:40:22] [connection] incoming connection: 127.0.0.1:53962 id: 0
+[17:40:22] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[17:40:22] sferasfera
+[17:40:26] [debug] Run time error 6: "Invalid instruction"
+[17:40:26] [debug]  Unknown opcode 0x0 at address 0x00000004
+[17:40:26] [debug] AMX backtrace:
+[17:40:26] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[17:40:32] [part] Mortis_Grave has left the server (0:1)
+[17:41:40] [connection] 127.0.0.1:55330 requests connection cookie.
+[17:41:41] [connection] incoming connection: 127.0.0.1:55330 id: 0
+[17:41:42] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[17:41:42] sferasfera
+[17:41:46] [debug] Run time error 6: "Invalid instruction"
+[17:41:46] [debug]  Unknown opcode 0x0 at address 0x00000004
+[17:41:46] [debug] AMX backtrace:
+[17:41:46] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:43:53] 
+[17:43:53] Server Plugins
+[17:43:53] --------------
+[17:43:53]  Loading plugin: mysql
+[17:43:53]  >> plugin.mysql: R41-4 successfully loaded.
+[17:43:53]   Loaded.
+[17:43:53]  Loading plugin: crashdetect
+[17:43:53]   CrashDetect v4.18.1 is OK.
+[17:43:53]   Loaded.
+[17:43:53]  Loading plugin: streamer
+[17:43:53] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[17:43:53]   Loaded.
+[17:43:53]  Loading plugin: sscanf
+[17:43:53] 
+
+[17:43:53]  ===============================
+
+[17:43:53]       sscanf plugin loaded.     
+
+[17:43:53]          Version:  2.8.1        
+
+[17:43:53]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:43:53]  ===============================
+
+[17:43:53]   Loaded.
+[17:43:53]  Loading plugin: pawnregex
+[17:43:53] Pawn.Regex plugin v1.1 by urShadow loaded
+[17:43:53]   Loaded.
+[17:43:53]  Loading plugin: pawncmd
+[17:43:53] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[17:43:53]   Loaded.
+[17:43:53]  Loaded 6 plugins.
+
+[17:43:53] 
+[17:43:53] Filterscripts
+[17:43:53] ---------------
+[17:43:53]   Loaded 0 filterscripts.
+
+[17:43:57] [SQL]: Ѕаза данных была успешно подключена
+[17:43:57] Number of vehicle models: 0
+[17:44:11] [connection] 127.0.0.1:59476 requests connection cookie.
+[17:44:12] [connection] incoming connection: 127.0.0.1:59476 id: 0
+[17:44:12] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[17:44:12] sferasfera
+[17:44:12] [chat] [Mortis_Grave]: fhh
+[17:44:12] [debug] Run time error 5: "Invalid memory access"
+[17:44:12] [debug] AMX backtrace:
+[17:44:12] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[17:44:18] [debug] Run time error 6: "Invalid instruction"
+[17:44:18] [debug]  Unknown opcode 0x0 at address 0x00000004
+[17:44:18] [debug] AMX backtrace:
+[17:44:18] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[17:44:41] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:40:33] 
+[19:40:33] Server Plugins
+[19:40:33] --------------
+[19:40:33]  Loading plugin: mysql
+[19:40:34]  >> plugin.mysql: R41-4 successfully loaded.
+[19:40:34]   Loaded.
+[19:40:34]  Loading plugin: crashdetect
+[19:40:34]   CrashDetect v4.18.1 is OK.
+[19:40:34]   Loaded.
+[19:40:34]  Loading plugin: streamer
+[19:40:34] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[19:40:34]   Loaded.
+[19:40:34]  Loading plugin: sscanf
+[19:40:34] 
+
+[19:40:34]  ===============================
+
+[19:40:34]       sscanf plugin loaded.     
+
+[19:40:34]          Version:  2.8.1        
+
+[19:40:34]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:40:34]  ===============================
+
+[19:40:34]   Loaded.
+[19:40:34]  Loading plugin: pawnregex
+[19:40:34] Pawn.Regex plugin v1.1 by urShadow loaded
+[19:40:34]   Loaded.
+[19:40:34]  Loading plugin: pawncmd
+[19:40:34] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[19:40:34]   Loaded.
+[19:40:34]  Loaded 6 plugins.
+
+[19:40:34] 
+[19:40:34] Filterscripts
+[19:40:34] ---------------
+[19:40:34]   Loaded 0 filterscripts.
+
+[19:40:38] [SQL]: Ѕаза данных была успешно подключена
+[19:40:38] Number of vehicle models: 0
+[19:40:51] [connection] 127.0.0.1:62660 requests connection cookie.
+[19:40:52] [connection] incoming connection: 127.0.0.1:62660 id: 0
+[19:40:52] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[19:40:52] sferasfera
+[19:40:59] [debug] Run time error 6: "Invalid instruction"
+[19:40:59] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:40:59] [debug] AMX backtrace:
+[19:40:59] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[19:41:40] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:57:26] 
+[19:57:26] Server Plugins
+[19:57:26] --------------
+[19:57:26]  Loading plugin: mysql
+[19:57:26]  >> plugin.mysql: R41-4 successfully loaded.
+[19:57:26]   Loaded.
+[19:57:26]  Loading plugin: crashdetect
+[19:57:26]   CrashDetect v4.18.1 is OK.
+[19:57:26]   Loaded.
+[19:57:26]  Loading plugin: streamer
+[19:57:26] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[19:57:26]   Loaded.
+[19:57:26]  Loading plugin: sscanf
+[19:57:26] 
+
+[19:57:26]  ===============================
+
+[19:57:26]       sscanf plugin loaded.     
+
+[19:57:26]          Version:  2.8.1        
+
+[19:57:26]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:57:26]  ===============================
+
+[19:57:26]   Loaded.
+[19:57:26]  Loading plugin: pawnregex
+[19:57:26] Pawn.Regex plugin v1.1 by urShadow loaded
+[19:57:26]   Loaded.
+[19:57:26]  Loading plugin: pawncmd
+[19:57:26] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[19:57:26]   Loaded.
+[19:57:26]  Loaded 6 plugins.
+
+[19:57:26] 
+[19:57:26] Filterscripts
+[19:57:26] ---------------
+[19:57:26]   Loaded 0 filterscripts.
+
+[19:57:30] [SQL]: Ѕаза данных была успешно подключена
+[19:57:30] Number of vehicle models: 0
+[19:57:43] [connection] 127.0.0.1:63437 requests connection cookie.
+[19:57:44] [connection] incoming connection: 127.0.0.1:63437 id: 0
+[19:57:44] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[19:57:44] sferasfera
+[19:57:51] [debug] Run time error 6: "Invalid instruction"
+[19:57:51] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:57:51] [debug] AMX backtrace:
+[19:57:51] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[19:58:23] [part] Mortis_Grave has left the server (0:2)
+[19:58:47] [connection] 127.0.0.1:49560 requests connection cookie.
+[19:58:48] [connection] incoming connection: 127.0.0.1:49560 id: 0
+[19:58:48] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[19:58:48] sferasfera
+[19:58:52] [debug] Run time error 6: "Invalid instruction"
+[19:58:52] [debug]  Unknown opcode 0x0 at address 0x00000004
+[19:58:52] [debug] AMX backtrace:
+[19:58:52] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[19:58:59] [chat] [Mortis_Grave]: t
+[19:58:59] [debug] Run time error 5: "Invalid memory access"
+[19:58:59] [debug] AMX backtrace:
+[19:58:59] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:00] [chat] [Mortis_Grave]: t
+[19:59:00] [debug] Run time error 5: "Invalid memory access"
+[19:59:00] [debug] AMX backtrace:
+[19:59:00] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:00] [chat] [Mortis_Grave]: tt
+[19:59:00] [debug] Run time error 5: "Invalid memory access"
+[19:59:00] [debug] AMX backtrace:
+[19:59:00] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:00] [chat] [Mortis_Grave]: tt
+[19:59:00] [debug] Run time error 5: "Invalid memory access"
+[19:59:00] [debug] AMX backtrace:
+[19:59:00] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:01] [chat] [Mortis_Grave]: tt
+[19:59:01] [debug] Run time error 5: "Invalid memory access"
+[19:59:01] [debug] AMX backtrace:
+[19:59:01] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:04] [chat] [Mortis_Grave]: tt
+[19:59:04] [debug] Run time error 5: "Invalid memory access"
+[19:59:04] [debug] AMX backtrace:
+[19:59:04] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:07] [chat] [Mortis_Grave]: tt
+[19:59:07] [debug] Run time error 5: "Invalid memory access"
+[19:59:07] [debug] AMX backtrace:
+[19:59:07] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:08] [chat] [Mortis_Grave]: ttt
+[19:59:08] [debug] Run time error 5: "Invalid memory access"
+[19:59:08] [debug] AMX backtrace:
+[19:59:08] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:08] [chat] [Mortis_Grave]: ttt
+[19:59:08] [debug] Run time error 5: "Invalid memory access"
+[19:59:08] [debug] AMX backtrace:
+[19:59:08] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:08] [chat] [Mortis_Grave]: tttt
+[19:59:08] [debug] Run time error 5: "Invalid memory access"
+[19:59:08] [debug] AMX backtrace:
+[19:59:08] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:09] [chat] [Mortis_Grave]: tttt
+[19:59:09] [debug] Run time error 5: "Invalid memory access"
+[19:59:09] [debug] AMX backtrace:
+[19:59:09] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:09] [chat] [Mortis_Grave]: ttttt
+[19:59:09] [debug] Run time error 5: "Invalid memory access"
+[19:59:09] [debug] AMX backtrace:
+[19:59:09] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:09] [chat] [Mortis_Grave]: ttttt
+[19:59:09] [debug] Run time error 5: "Invalid memory access"
+[19:59:09] [debug] AMX backtrace:
+[19:59:09] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:09] [chat] [Mortis_Grave]: ttttt
+[19:59:09] [debug] Run time error 5: "Invalid memory access"
+[19:59:09] [debug] AMX backtrace:
+[19:59:09] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:09] [chat] [Mortis_Grave]: tttttt
+[19:59:09] [debug] Run time error 5: "Invalid memory access"
+[19:59:09] [debug] AMX backtrace:
+[19:59:09] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:10] [chat] [Mortis_Grave]: tttttt
+[19:59:10] [debug] Run time error 5: "Invalid memory access"
+[19:59:10] [debug] AMX backtrace:
+[19:59:10] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:10] [chat] [Mortis_Grave]: tttttt
+[19:59:10] [debug] Run time error 5: "Invalid memory access"
+[19:59:10] [debug] AMX backtrace:
+[19:59:10] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:11] [chat] [Mortis_Grave]: ttttttt
+[19:59:11] [debug] Run time error 5: "Invalid memory access"
+[19:59:11] [debug] AMX backtrace:
+[19:59:11] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:11] [chat] [Mortis_Grave]: ttttttt
+[19:59:11] [debug] Run time error 5: "Invalid memory access"
+[19:59:11] [debug] AMX backtrace:
+[19:59:11] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:11] [chat] [Mortis_Grave]: ttttttt
+[19:59:11] [debug] Run time error 5: "Invalid memory access"
+[19:59:11] [debug] AMX backtrace:
+[19:59:11] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:11] [chat] [Mortis_Grave]: ttttttt
+[19:59:11] [debug] Run time error 5: "Invalid memory access"
+[19:59:11] [debug] AMX backtrace:
+[19:59:11] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:12] [chat] [Mortis_Grave]: tttttttt
+[19:59:12] [debug] Run time error 5: "Invalid memory access"
+[19:59:12] [debug] AMX backtrace:
+[19:59:12] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:12] [chat] [Mortis_Grave]: tttttttt
+[19:59:12] [debug] Run time error 5: "Invalid memory access"
+[19:59:12] [debug] AMX backtrace:
+[19:59:12] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:13] [chat] [Mortis_Grave]: tttttttt
+[19:59:13] [debug] Run time error 5: "Invalid memory access"
+[19:59:13] [debug] AMX backtrace:
+[19:59:13] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:13] [chat] [Mortis_Grave]: tttttttt
+[19:59:13] [debug] Run time error 5: "Invalid memory access"
+[19:59:13] [debug] AMX backtrace:
+[19:59:13] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:13] [chat] [Mortis_Grave]: ttttttttt
+[19:59:13] [debug] Run time error 5: "Invalid memory access"
+[19:59:13] [debug] AMX backtrace:
+[19:59:13] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:14] [chat] [Mortis_Grave]: ttttttttt
+[19:59:14] [debug] Run time error 5: "Invalid memory access"
+[19:59:14] [debug] AMX backtrace:
+[19:59:14] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:14] [chat] [Mortis_Grave]: ttttttttt
+[19:59:14] [debug] Run time error 5: "Invalid memory access"
+[19:59:14] [debug] AMX backtrace:
+[19:59:14] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:14] [chat] [Mortis_Grave]: tttttttttt
+[19:59:14] [debug] Run time error 5: "Invalid memory access"
+[19:59:14] [debug] AMX backtrace:
+[19:59:14] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:15] [chat] [Mortis_Grave]: tttttttttt
+[19:59:15] [debug] Run time error 5: "Invalid memory access"
+[19:59:15] [debug] AMX backtrace:
+[19:59:15] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:15] [chat] [Mortis_Grave]: tttttttttt
+[19:59:15] [debug] Run time error 5: "Invalid memory access"
+[19:59:15] [debug] AMX backtrace:
+[19:59:15] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:15] [chat] [Mortis_Grave]: tttttttttt
+[19:59:15] [debug] Run time error 5: "Invalid memory access"
+[19:59:15] [debug] AMX backtrace:
+[19:59:15] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:16] [chat] [Mortis_Grave]: tttttttttt
+[19:59:16] [debug] Run time error 5: "Invalid memory access"
+[19:59:16] [debug] AMX backtrace:
+[19:59:16] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:17] [chat] [Mortis_Grave]: tttttttttt
+[19:59:17] [debug] Run time error 5: "Invalid memory access"
+[19:59:17] [debug] AMX backtrace:
+[19:59:17] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:18] [chat] [Mortis_Grave]: tttttttttt
+[19:59:18] [debug] Run time error 5: "Invalid memory access"
+[19:59:18] [debug] AMX backtrace:
+[19:59:18] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:19] [chat] [Mortis_Grave]: tttttttttt
+[19:59:19] [debug] Run time error 5: "Invalid memory access"
+[19:59:19] [debug] AMX backtrace:
+[19:59:19] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:19] [chat] [Mortis_Grave]: tttttttttt
+[19:59:19] [debug] Run time error 5: "Invalid memory access"
+[19:59:19] [debug] AMX backtrace:
+[19:59:19] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:20] [chat] [Mortis_Grave]: tttttttttt
+[19:59:20] [debug] Run time error 5: "Invalid memory access"
+[19:59:20] [debug] AMX backtrace:
+[19:59:20] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:20] [chat] [Mortis_Grave]: tttttttttt
+[19:59:20] [debug] Run time error 5: "Invalid memory access"
+[19:59:20] [debug] AMX backtrace:
+[19:59:20] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:21] [chat] [Mortis_Grave]: ttttttttttt
+[19:59:21] [debug] Run time error 5: "Invalid memory access"
+[19:59:21] [debug] AMX backtrace:
+[19:59:21] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:23] [chat] [Mortis_Grave]: ttttttttttt
+[19:59:23] [debug] Run time error 5: "Invalid memory access"
+[19:59:23] [debug] AMX backtrace:
+[19:59:23] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:25] [chat] [Mortis_Grave]: ttttttttttt
+[19:59:25] [debug] Run time error 5: "Invalid memory access"
+[19:59:25] [debug] AMX backtrace:
+[19:59:25] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:25] [chat] [Mortis_Grave]: ttttttttttt
+[19:59:25] [debug] Run time error 5: "Invalid memory access"
+[19:59:25] [debug] AMX backtrace:
+[19:59:25] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:26] [chat] [Mortis_Grave]: ttttttttttt
+[19:59:26] [debug] Run time error 5: "Invalid memory access"
+[19:59:26] [debug] AMX backtrace:
+[19:59:26] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:26] [chat] [Mortis_Grave]: ttttttttttt
+[19:59:26] [debug] Run time error 5: "Invalid memory access"
+[19:59:26] [debug] AMX backtrace:
+[19:59:26] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:27] [chat] [Mortis_Grave]: tttttttttttt
+[19:59:27] [debug] Run time error 5: "Invalid memory access"
+[19:59:27] [debug] AMX backtrace:
+[19:59:27] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:27] [chat] [Mortis_Grave]: ttttttttttttt
+[19:59:27] [debug] Run time error 5: "Invalid memory access"
+[19:59:27] [debug] AMX backtrace:
+[19:59:27] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:32] [chat] [Mortis_Grave]: ttttttttttttt
+[19:59:32] [debug] Run time error 5: "Invalid memory access"
+[19:59:32] [debug] AMX backtrace:
+[19:59:32] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[19:59:47] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:04:56] 
+[20:04:56] Server Plugins
+[20:04:56] --------------
+[20:04:56]  Loading plugin: mysql
+[20:04:56]  >> plugin.mysql: R41-4 successfully loaded.
+[20:04:56]   Loaded.
+[20:04:56]  Loading plugin: crashdetect
+[20:04:56]   CrashDetect v4.18.1 is OK.
+[20:04:56]   Loaded.
+[20:04:56]  Loading plugin: streamer
+[20:04:56] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[20:04:56]   Loaded.
+[20:04:56]  Loading plugin: sscanf
+[20:04:56] 
+
+[20:04:56]  ===============================
+
+[20:04:56]       sscanf plugin loaded.     
+
+[20:04:56]          Version:  2.8.1        
+
+[20:04:56]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:04:56]  ===============================
+
+[20:04:57]   Loaded.
+[20:04:57]  Loading plugin: pawnregex
+[20:04:57] Pawn.Regex plugin v1.1 by urShadow loaded
+[20:04:57]   Loaded.
+[20:04:57]  Loading plugin: pawncmd
+[20:04:57] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[20:04:57]   Loaded.
+[20:04:57]  Loaded 6 plugins.
+
+[20:04:57] 
+[20:04:57] Filterscripts
+[20:04:57] ---------------
+[20:04:57]   Loaded 0 filterscripts.
+
+[20:05:01] [SQL]: Ѕаза данных была успешно подключена
+[20:05:01] Number of vehicle models: 0
+[20:05:13] [connection] 127.0.0.1:49655 requests connection cookie.
+[20:05:14] [connection] incoming connection: 127.0.0.1:49655 id: 0
+[20:05:15] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[20:05:15] sferasfera
+[20:05:24] [debug] Run time error 6: "Invalid instruction"
+[20:05:24] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:05:24] [debug] AMX backtrace:
+[20:05:24] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:08:16] 
+[20:08:16] Server Plugins
+[20:08:16] --------------
+[20:08:16]  Loading plugin: mysql
+[20:08:16]  >> plugin.mysql: R41-4 successfully loaded.
+[20:08:16]   Loaded.
+[20:08:16]  Loading plugin: crashdetect
+[20:08:16]   CrashDetect v4.18.1 is OK.
+[20:08:16]   Loaded.
+[20:08:16]  Loading plugin: streamer
+[20:08:16] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[20:08:16]   Loaded.
+[20:08:16]  Loading plugin: sscanf
+[20:08:16] 
+
+[20:08:16]  ===============================
+
+[20:08:16]       sscanf plugin loaded.     
+
+[20:08:16]          Version:  2.8.1        
+
+[20:08:16]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:08:16]  ===============================
+
+[20:08:16]   Loaded.
+[20:08:16]  Loading plugin: pawnregex
+[20:08:16] Pawn.Regex plugin v1.1 by urShadow loaded
+[20:08:16]   Loaded.
+[20:08:16]  Loading plugin: pawncmd
+[20:08:16] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[20:08:16]   Loaded.
+[20:08:16]  Loaded 6 plugins.
+
+[20:08:16] I couldn't load any gamemode scripts. Please verify your server.cfg
+[20:08:16] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:08:55] 
+[20:08:55] Server Plugins
+[20:08:55] --------------
+[20:08:55]  Loading plugin: mysql
+[20:08:55]  >> plugin.mysql: R41-4 successfully loaded.
+[20:08:55]   Loaded.
+[20:08:55]  Loading plugin: crashdetect
+[20:08:55]   CrashDetect v4.18.1 is OK.
+[20:08:55]   Loaded.
+[20:08:55]  Loading plugin: streamer
+[20:08:55] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[20:08:55]   Loaded.
+[20:08:55]  Loading plugin: sscanf
+[20:08:55] 
+
+[20:08:55]  ===============================
+
+[20:08:55]       sscanf plugin loaded.     
+
+[20:08:55]          Version:  2.8.1        
+
+[20:08:55]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:08:55]  ===============================
+
+[20:08:55]   Loaded.
+[20:08:55]  Loading plugin: pawnregex
+[20:08:55] Pawn.Regex plugin v1.1 by urShadow loaded
+[20:08:55]   Loaded.
+[20:08:55]  Loading plugin: pawncmd
+[20:08:55] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[20:08:55]   Loaded.
+[20:08:55]  Loaded 6 plugins.
+
+[20:08:56] 
+[20:08:56] Filterscripts
+[20:08:56] ---------------
+[20:08:56]   Loaded 0 filterscripts.
+
+[20:09:00] [SQL]: Ѕаза данных была успешно подключена
+[20:09:00] Number of vehicle models: 0
+[20:09:12] [connection] 127.0.0.1:59201 requests connection cookie.
+[20:09:13] [connection] incoming connection: 127.0.0.1:59201 id: 0
+[20:09:14] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[20:09:14] sferasfera
+[20:09:18] [debug] Run time error 6: "Invalid instruction"
+[20:09:18] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:09:18] [debug] AMX backtrace:
+[20:09:18] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:13:07] 
+[20:13:07] Server Plugins
+[20:13:07] --------------
+[20:13:07]  Loading plugin: mysql
+[20:13:07]  >> plugin.mysql: R41-4 successfully loaded.
+[20:13:07]   Loaded.
+[20:13:07]  Loading plugin: crashdetect
+[20:13:07]   CrashDetect v4.18.1 is OK.
+[20:13:07]   Loaded.
+[20:13:07]  Loading plugin: streamer
+[20:13:07] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[20:13:07]   Loaded.
+[20:13:07]  Loading plugin: sscanf
+[20:13:07] 
+
+[20:13:07]  ===============================
+
+[20:13:07]       sscanf plugin loaded.     
+
+[20:13:07]          Version:  2.8.1        
+
+[20:13:07]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:13:07]  ===============================
+
+[20:13:07]   Loaded.
+[20:13:07]  Loading plugin: pawnregex
+[20:13:07] Pawn.Regex plugin v1.1 by urShadow loaded
+[20:13:07]   Loaded.
+[20:13:07]  Loading plugin: pawncmd
+[20:13:07] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[20:13:07]   Loaded.
+[20:13:07]  Loaded 6 plugins.
+
+[20:13:08] 
+[20:13:08] Filterscripts
+[20:13:08] ---------------
+[20:13:08]   Loaded 0 filterscripts.
+
+[20:13:12] [SQL]: Ѕаза данных была успешно подключена
+[20:13:12] Number of vehicle models: 0
+[20:13:25] [connection] 127.0.0.1:53689 requests connection cookie.
+[20:13:26] [connection] incoming connection: 127.0.0.1:53689 id: 0
+[20:13:26] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[20:13:26] sferasfera
+[20:13:31] [debug] Run time error 6: "Invalid instruction"
+[20:13:31] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:13:31] [debug] AMX backtrace:
+[20:13:31] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[20:14:25] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:15:41] 
+[20:15:41] Server Plugins
+[20:15:41] --------------
+[20:15:41]  Loading plugin: mysql
+[20:15:41]  >> plugin.mysql: R41-4 successfully loaded.
+[20:15:41]   Loaded.
+[20:15:41]  Loading plugin: crashdetect
+[20:15:41]   CrashDetect v4.18.1 is OK.
+[20:15:41]   Loaded.
+[20:15:41]  Loading plugin: streamer
+[20:15:41] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[20:15:41]   Loaded.
+[20:15:41]  Loading plugin: sscanf
+[20:15:41] 
+
+[20:15:41]  ===============================
+
+[20:15:41]       sscanf plugin loaded.     
+
+[20:15:41]          Version:  2.8.1        
+
+[20:15:41]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:15:41]  ===============================
+
+[20:15:41]   Loaded.
+[20:15:41]  Loading plugin: pawnregex
+[20:15:41] Pawn.Regex plugin v1.1 by urShadow loaded
+[20:15:41]   Loaded.
+[20:15:41]  Loading plugin: pawncmd
+[20:15:41] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[20:15:41]   Loaded.
+[20:15:41]  Loaded 6 plugins.
+
+[20:15:41] 
+[20:15:41] Filterscripts
+[20:15:41] ---------------
+[20:15:41]   Loaded 0 filterscripts.
+
+[20:15:45] [SQL]: Ѕаза данных была успешно подключена
+[20:15:45] Number of vehicle models: 0
+[20:15:58] [connection] 127.0.0.1:64980 requests connection cookie.
+[20:15:59] [connection] incoming connection: 127.0.0.1:64980 id: 0
+[20:15:59] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[20:15:59] sferasfera
+[20:16:04] [debug] Run time error 6: "Invalid instruction"
+[20:16:04] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:16:04] [debug] AMX backtrace:
+[20:16:04] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[20:16:07] фќ–ћј“
+[20:16:20] фќ–ћј“
+[20:16:25] фќ–ћј“
+[20:16:58] фќ–ћј“
+[20:17:00] фќ–ћј“
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:21:49] 
+[20:21:49] Server Plugins
+[20:21:49] --------------
+[20:21:49]  Loading plugin: mysql
+[20:21:49]  >> plugin.mysql: R41-4 successfully loaded.
+[20:21:49]   Loaded.
+[20:21:49]  Loading plugin: crashdetect
+[20:21:49]   CrashDetect v4.18.1 is OK.
+[20:21:49]   Loaded.
+[20:21:49]  Loading plugin: streamer
+[20:21:49] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[20:21:49]   Loaded.
+[20:21:49]  Loading plugin: sscanf
+[20:21:49] 
+
+[20:21:49]  ===============================
+
+[20:21:49]       sscanf plugin loaded.     
+
+[20:21:49]          Version:  2.8.1        
+
+[20:21:49]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:21:49]  ===============================
+
+[20:21:49]   Loaded.
+[20:21:49]  Loading plugin: pawnregex
+[20:21:49] Pawn.Regex plugin v1.1 by urShadow loaded
+[20:21:49]   Loaded.
+[20:21:49]  Loading plugin: pawncmd
+[20:21:49] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[20:21:49]   Loaded.
+[20:21:49]  Loaded 6 plugins.
+
+[20:21:49] 
+[20:21:49] Filterscripts
+[20:21:49] ---------------
+[20:21:49]   Loaded 0 filterscripts.
+
+[20:21:53] [SQL]: Ѕаза данных была успешно подключена
+[20:21:53] Number of vehicle models: 0
+[20:22:14] [connection] 127.0.0.1:51206 requests connection cookie.
+[20:22:15] [connection] incoming connection: 127.0.0.1:51206 id: 0
+[20:22:15] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[20:22:15] sferasfera
+[20:22:21] [debug] Run time error 6: "Invalid instruction"
+[20:22:21] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:22:21] [debug] AMX backtrace:
+[20:22:21] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[20:24:10] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:35:39] 
+[20:35:39] Server Plugins
+[20:35:39] --------------
+[20:35:39]  Loading plugin: mysql
+[20:35:39]  >> plugin.mysql: R41-4 successfully loaded.
+[20:35:39]   Loaded.
+[20:35:39]  Loading plugin: crashdetect
+[20:35:39]   CrashDetect v4.18.1 is OK.
+[20:35:39]   Loaded.
+[20:35:39]  Loading plugin: streamer
+[20:35:39] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[20:35:39]   Loaded.
+[20:35:39]  Loading plugin: sscanf
+[20:35:39] 
+
+[20:35:39]  ===============================
+
+[20:35:39]       sscanf plugin loaded.     
+
+[20:35:39]          Version:  2.8.1        
+
+[20:35:39]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:35:39]  ===============================
+
+[20:35:39]   Loaded.
+[20:35:39]  Loading plugin: pawnregex
+[20:35:39] Pawn.Regex plugin v1.1 by urShadow loaded
+[20:35:39]   Loaded.
+[20:35:39]  Loading plugin: pawncmd
+[20:35:39] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[20:35:39]   Loaded.
+[20:35:39]  Loaded 6 plugins.
+
+[20:35:39] 
+[20:35:39] Filterscripts
+[20:35:39] ---------------
+[20:35:39]   Loaded 0 filterscripts.
+
+[20:35:43] [SQL]: Ѕаза данных была успешно подключена
+[20:35:43] Number of vehicle models: 0
+[20:36:01] [connection] 127.0.0.1:57287 requests connection cookie.
+[20:36:02] [connection] incoming connection: 127.0.0.1:57287 id: 0
+[20:36:03] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[20:36:03] sferasfera
+[20:36:07] [debug] Run time error 6: "Invalid instruction"
+[20:36:07] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:36:07] [debug] AMX backtrace:
+[20:36:07] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[20:36:19] sscanf warning: Format specifier does not match parameter count.
+[20:36:24] sscanf warning: Format specifier does not match parameter count.
+[20:36:46] sscanf warning: Format specifier does not match parameter count.
+[20:36:53] sscanf warning: Format specifier does not match parameter count.
+[20:37:00] [part] Mortis_Grave has left the server (0:1)
+[20:40:52] [connection] 127.0.0.1:52057 requests connection cookie.
+[20:40:53] [connection] incoming connection: 127.0.0.1:52057 id: 0
+[20:40:53] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[20:40:53] sferasfera
+[20:40:57] [debug] Run time error 6: "Invalid instruction"
+[20:40:57] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:40:57] [debug] AMX backtrace:
+[20:40:57] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[20:41:01] sscanf warning: Format specifier does not match parameter count.
+[20:41:04] sscanf warning: Format specifier does not match parameter count.
+[20:41:12] sscanf warning: Format specifier does not match parameter count.
+[20:41:18] sscanf warning: Format specifier does not match parameter count.
+[20:41:20] sscanf warning: Format specifier does not match parameter count.
+[20:41:24] sscanf warning: Format specifier does not match parameter count.
+[20:41:27] sscanf warning: Format specifier does not match parameter count.
+[20:41:29] sscanf warning: Format specifier does not match parameter count.
+[20:47:01] sscanf warning: Format specifier does not match parameter count.
+[20:47:09] sscanf warning: Format specifier does not match parameter count.
+[20:47:13] sscanf warning: Format specifier does not match parameter count.
+[20:47:28] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:51:58] 
+[20:51:58] Server Plugins
+[20:51:58] --------------
+[20:51:58]  Loading plugin: mysql
+[20:51:58]  >> plugin.mysql: R41-4 successfully loaded.
+[20:51:58]   Loaded.
+[20:51:58]  Loading plugin: crashdetect
+[20:51:58]   CrashDetect v4.18.1 is OK.
+[20:51:58]   Loaded.
+[20:51:58]  Loading plugin: streamer
+[20:51:58] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[20:51:58]   Loaded.
+[20:51:58]  Loading plugin: sscanf
+[20:51:58] 
+
+[20:51:58]  ===============================
+
+[20:51:58]       sscanf plugin loaded.     
+
+[20:51:58]          Version:  2.8.1        
+
+[20:51:58]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:51:58]  ===============================
+
+[20:51:58]   Loaded.
+[20:51:58]  Loading plugin: pawnregex
+[20:51:58] Pawn.Regex plugin v1.1 by urShadow loaded
+[20:51:58]   Loaded.
+[20:51:58]  Loading plugin: pawncmd
+[20:51:58] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[20:51:58]   Loaded.
+[20:51:58]  Loaded 6 plugins.
+
+[20:51:59] 
+[20:51:59] Filterscripts
+[20:51:59] ---------------
+[20:51:59]   Loaded 0 filterscripts.
+
+[20:52:03] [SQL]: Ѕаза данных была успешно подключена
+[20:52:03] Number of vehicle models: 0
+[20:52:16] [connection] 127.0.0.1:51975 requests connection cookie.
+[20:52:17] [connection] incoming connection: 127.0.0.1:51975 id: 0
+[20:52:17] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[20:52:17] sferasfera
+[20:52:29] [debug] Run time error 6: "Invalid instruction"
+[20:52:29] [debug]  Unknown opcode 0x0 at address 0x00000004
+[20:52:29] [debug] AMX backtrace:
+[20:52:29] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[20:52:38] sscanf warning: Format specifier does not match parameter count.
+[20:52:42] sscanf warning: Format specifier does not match parameter count.
+[20:52:46] sscanf warning: Format specifier does not match parameter count.
+[20:52:54] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:09:34] 
+[21:09:34] Server Plugins
+[21:09:34] --------------
+[21:09:34]  Loading plugin: mysql
+[21:09:34]  >> plugin.mysql: R41-4 successfully loaded.
+[21:09:34]   Loaded.
+[21:09:34]  Loading plugin: crashdetect
+[21:09:34]   CrashDetect v4.18.1 is OK.
+[21:09:34]   Loaded.
+[21:09:34]  Loading plugin: streamer
+[21:09:34] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[21:09:34]   Loaded.
+[21:09:34]  Loading plugin: sscanf
+[21:09:34] 
+
+[21:09:34]  ===============================
+
+[21:09:34]       sscanf plugin loaded.     
+
+[21:09:34]          Version:  2.8.1        
+
+[21:09:34]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:09:34]  ===============================
+
+[21:09:34]   Loaded.
+[21:09:34]  Loading plugin: pawnregex
+[21:09:34] Pawn.Regex plugin v1.1 by urShadow loaded
+[21:09:34]   Loaded.
+[21:09:34]  Loading plugin: pawncmd
+[21:09:34] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[21:09:34]   Loaded.
+[21:09:34]  Loaded 6 plugins.
+
+[21:09:34] 
+[21:09:34] Filterscripts
+[21:09:34] ---------------
+[21:09:34]   Loaded 0 filterscripts.
+
+[21:09:38] [SQL]: Ѕаза данных была успешно подключена
+[21:09:39] Number of vehicle models: 0
+[21:09:51] [connection] 127.0.0.1:64581 requests connection cookie.
+[21:09:52] [connection] incoming connection: 127.0.0.1:64581 id: 0
+[21:09:52] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[21:09:52] sferasfera
+[21:09:59] [debug] Run time error 6: "Invalid instruction"
+[21:09:59] [debug]  Unknown opcode 0x0 at address 0x00000004
+[21:09:59] [debug] AMX backtrace:
+[21:09:59] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[21:10:07] [chat] [Mortis_Grave]: тест
+[21:10:07] [debug] Run time error 5: "Invalid memory access"
+[21:10:07] [debug] AMX backtrace:
+[21:10:07] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[21:10:20] sscanf warning: Format specifier does not match parameter count.
+[21:10:28] sscanf warning: Format specifier does not match parameter count.
+[21:10:49] sscanf warning: Format specifier does not match parameter count.
+[21:13:20] sscanf warning: Format specifier does not match parameter count.
+[21:13:24] sscanf warning: Format specifier does not match parameter count.
+[21:13:39] sscanf warning: Format specifier does not match parameter count.
+[21:14:23] sscanf warning: Format specifier does not match parameter count.
+[21:16:11] sscanf warning: Format specifier does not match parameter count.
+[21:17:36] sscanf warning: Format specifier does not match parameter count.
+[21:17:41] sscanf warning: Format specifier does not match parameter count.
+[21:17:42] sscanf warning: Format specifier does not match parameter count.
+[21:17:42] sscanf warning: Format specifier does not match parameter count.
+[21:17:43] sscanf warning: Format specifier does not match parameter count.
+[21:17:43] sscanf warning: Format specifier does not match parameter count.
+[21:17:59] sscanf warning: Format specifier does not match parameter count.
+[21:18:14] sscanf warning: Format specifier does not match parameter count.
+[21:19:09] sscanf warning: Format specifier does not match parameter count.
+[21:22:54] sscanf warning: Format specifier does not match parameter count.
+[21:23:30] [part] Mortis_Grave has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:24:25] 
+[21:24:25] Server Plugins
+[21:24:25] --------------
+[21:24:25]  Loading plugin: mysql
+[21:24:25]  >> plugin.mysql: R41-4 successfully loaded.
+[21:24:25]   Loaded.
+[21:24:25]  Loading plugin: crashdetect
+[21:24:25]   CrashDetect v4.18.1 is OK.
+[21:24:25]   Loaded.
+[21:24:25]  Loading plugin: streamer
+[21:24:25] 
+
+*** Streamer Plugin v2.8.2 by Incognito loaded ***
+
+[21:24:25]   Loaded.
+[21:24:25]  Loading plugin: sscanf
+[21:24:25] 
+
+[21:24:25]  ===============================
+
+[21:24:25]       sscanf plugin loaded.     
+
+[21:24:25]          Version:  2.8.1        
+
+[21:24:25]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:24:25]  ===============================
+
+[21:24:25]   Loaded.
+[21:24:25]  Loading plugin: pawnregex
+[21:24:25] Pawn.Regex plugin v1.1 by urShadow loaded
+[21:24:25]   Loaded.
+[21:24:25]  Loading plugin: pawncmd
+[21:24:25] Pawn.CMD plugin v3.1.4 by urShadow loaded
+[21:24:25]   Loaded.
+[21:24:25]  Loaded 6 plugins.
+
+[21:24:25] 
+[21:24:25] Filterscripts
+[21:24:25] ---------------
+[21:24:25]   Loaded 0 filterscripts.
+
+[21:24:29] [SQL]: Ѕаза данных была успешно подключена
+[21:24:29] Number of vehicle models: 0
+[21:24:42] [connection] 127.0.0.1:57424 requests connection cookie.
+[21:24:43] [connection] incoming connection: 127.0.0.1:57424 id: 0
+[21:24:43] [join] Mortis_Grave has joined the server (0:127.0.0.1)
+[21:24:43] sferasfera
+[21:24:47] [debug] Run time error 6: "Invalid instruction"
+[21:24:47] [debug]  Unknown opcode 0x0 at address 0x00000004
+[21:24:47] [debug] AMX backtrace:
+[21:24:47] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[21:24:55] sscanf warning: Format specifier does not match parameter count.
+[21:24:56] sscanf warning: Format specifier does not match parameter count.
+[21:24:56] sscanf warning: Format specifier does not match parameter count.
+[21:24:57] sscanf warning: Format specifier does not match parameter count.
+[21:24:57] sscanf warning: Format specifier does not match parameter count.
+[21:24:58] sscanf warning: Format specifier does not match parameter count.
+[21:24:58] sscanf warning: Format specifier does not match parameter count.
+[21:24:59] sscanf warning: Format specifier does not match parameter count.
+[21:24:59] sscanf warning: Format specifier does not match parameter count.
+[21:24:59] sscanf warning: Format specifier does not match parameter count.
+[21:25:00] sscanf warning: Format specifier does not match parameter count.
+[21:25:00] sscanf warning: Format specifier does not match parameter count.
+[21:25:00] sscanf warning: Format specifier does not match parameter count.
+[21:25:01] sscanf warning: Format specifier does not match parameter count.
+[21:25:01] sscanf warning: Format specifier does not match parameter count.
+[21:25:06] sscanf warning: Format specifier does not match parameter count.
+[21:25:06] sscanf warning: Format specifier does not match parameter count.
+[21:25:07] sscanf warning: Format specifier does not match parameter count.
+[21:25:07] sscanf warning: Format specifier does not match parameter count.
+[21:25:08] sscanf warning: Format specifier does not match parameter count.
+[21:25:09] sscanf warning: Format specifier does not match parameter count.
+[21:25:10] sscanf warning: Format specifier does not match parameter count.
+[21:25:10] sscanf warning: Format specifier does not match parameter count.
+[21:25:11] sscanf warning: Format specifier does not match parameter count.
+[21:25:13] sscanf warning: Format specifier does not match parameter count.
+[21:25:14] sscanf warning: Format specifier does not match parameter count.
+[21:25:15] sscanf warning: Format specifier does not match parameter count.
+[21:25:16] sscanf warning: Format specifier does not match parameter count.
+[21:25:17] sscanf warning: Format specifier does not match parameter count.
+[21:25:18] sscanf warning: Format specifier does not match parameter count.
+[21:25:19] sscanf warning: Format specifier does not match parameter count.
+[21:25:20] sscanf warning: Format specifier does not match parameter count.
+[21:25:20] sscanf warning: Format specifier does not match parameter count.
+[21:25:21] sscanf warning: Format specifier does not match parameter count.
+[21:25:22] sscanf warning: Format specifier does not match parameter count.
+[21:25:22] sscanf warning: Format specifier does not match parameter count.
+[21:25:23] sscanf warning: Format specifier does not match parameter count.
+[21:25:23] sscanf warning: Format specifier does not match parameter count.
+[21:25:24] sscanf warning: Format specifier does not match parameter count.
+[21:25:25] sscanf warning: Format specifier does not match parameter count.
+[21:25:30] [death] Mortis_Grave died 255
+[21:25:39] [debug] Run time error 6: "Invalid instruction"
+[21:25:39] [debug]  Unknown opcode 0x0 at address 0x00000004
+[21:25:39] [debug] AMX backtrace:
+[21:25:39] [debug] #0 00000004 in public OnPlayerSpawn () from PlayerModeServer.amx
+[21:26:26] sscanf warning: Format specifier does not match parameter count.
+[21:26:27] sscanf warning: Format specifier does not match parameter count.
+[21:26:28] sscanf warning: Format specifier does not match parameter count.
+[21:26:29] sscanf warning: Format specifier does not match parameter count.
+[21:26:30] sscanf warning: Format specifier does not match parameter count.
+[21:26:30] sscanf warning: Format specifier does not match parameter count.
+[21:26:31] sscanf warning: Format specifier does not match parameter count.
+[21:26:32] sscanf warning: Format specifier does not match parameter count.
+[21:26:32] sscanf warning: Format specifier does not match parameter count.
+[21:26:33] sscanf warning: Format specifier does not match parameter count.
+[21:26:34] sscanf warning: Format specifier does not match parameter count.
+[21:26:34] sscanf warning: Format specifier does not match parameter count.
+[21:26:35] sscanf warning: Format specifier does not match parameter count.
+[21:26:36] sscanf warning: Format specifier does not match parameter count.
+[21:26:36] sscanf warning: Format specifier does not match parameter count.
+[21:26:37] sscanf warning: Format specifier does not match parameter count.
+[21:26:38] sscanf warning: Format specifier does not match parameter count.
+[21:26:38] sscanf warning: Format specifier does not match parameter count.
+[21:26:39] sscanf warning: Format specifier does not match parameter count.
+[21:26:40] sscanf warning: Format specifier does not match parameter count.
+[21:26:40] sscanf warning: Format specifier does not match parameter count.
+[21:26:41] sscanf warning: Format specifier does not match parameter count.
+[21:26:42] sscanf warning: Format specifier does not match parameter count.
+[21:26:42] sscanf warning: Format specifier does not match parameter count.
+[21:26:50] sscanf warning: Format specifier does not match parameter count.
+[21:26:51] sscanf warning: Format specifier does not match parameter count.
+[21:26:52] sscanf warning: Format specifier does not match parameter count.
+[21:26:52] sscanf warning: Format specifier does not match parameter count.
+[21:26:53] sscanf warning: Format specifier does not match parameter count.
+[21:26:54] sscanf warning: Format specifier does not match parameter count.
+[21:26:54] sscanf warning: Format specifier does not match parameter count.
+[21:26:55] sscanf warning: Format specifier does not match parameter count.
+[21:26:56] sscanf warning: Format specifier does not match parameter count.
+[21:26:56] sscanf warning: Format specifier does not match parameter count.
+[21:26:57] sscanf warning: Format specifier does not match parameter count.
+[21:26:58] sscanf warning: Format specifier does not match parameter count.
+[21:27:00] sscanf warning: Format specifier does not match parameter count.
+[21:27:01] sscanf warning: Format specifier does not match parameter count.
+[21:27:02] sscanf warning: Format specifier does not match parameter count.
+[21:27:02] sscanf warning: Format specifier does not match parameter count.
+[21:27:03] sscanf warning: Format specifier does not match parameter count.
+[21:27:03] sscanf warning: Format specifier does not match parameter count.
+[21:27:04] sscanf warning: Format specifier does not match parameter count.
+[21:27:05] sscanf warning: Format specifier does not match parameter count.
+[21:27:05] sscanf warning: Format specifier does not match parameter count.
+[21:27:06] sscanf warning: Format specifier does not match parameter count.
+[21:27:07] sscanf warning: Format specifier does not match parameter count.
+[21:27:08] sscanf warning: Format specifier does not match parameter count.
+[21:27:09] sscanf warning: Format specifier does not match parameter count.
+[21:27:09] sscanf warning: Format specifier does not match parameter count.
+[21:27:10] sscanf warning: Format specifier does not match parameter count.
+[21:27:11] sscanf warning: Format specifier does not match parameter count.
+[21:27:11] sscanf warning: Format specifier does not match parameter count.
+[21:27:12] sscanf warning: Format specifier does not match parameter count.
+[21:27:13] sscanf warning: Format specifier does not match parameter count.
+[21:27:13] sscanf warning: Format specifier does not match parameter count.
+[21:27:14] sscanf warning: Format specifier does not match parameter count.
+[21:27:15] sscanf warning: Format specifier does not match parameter count.
+[21:27:15] sscanf warning: Format specifier does not match parameter count.
+[21:27:18] [chat] [Mortis_Grave]: f
+[21:27:18] [debug] Run time error 5: "Invalid memory access"
+[21:27:18] [debug] AMX backtrace:
+[21:27:18] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[21:27:48] [chat] [Mortis_Grave]: f
+[21:27:48] [debug] Run time error 5: "Invalid memory access"
+[21:27:48] [debug] AMX backtrace:
+[21:27:48] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[21:27:50] sscanf warning: Format specifier does not match parameter count.
+[21:27:50] sscanf warning: Format specifier does not match parameter count.
+[21:27:51] sscanf warning: Format specifier does not match parameter count.
+[21:27:52] sscanf warning: Format specifier does not match parameter count.
+[21:27:52] sscanf warning: Format specifier does not match parameter count.
+[21:27:53] sscanf warning: Format specifier does not match parameter count.
+[21:27:53] sscanf warning: Format specifier does not match parameter count.
+[21:27:54] sscanf warning: Format specifier does not match parameter count.
+[21:27:55] sscanf warning: Format specifier does not match parameter count.
+[21:27:55] sscanf warning: Format specifier does not match parameter count.
+[21:27:56] sscanf warning: Format specifier does not match parameter count.
+[21:27:57] sscanf warning: Format specifier does not match parameter count.
+[21:27:57] sscanf warning: Format specifier does not match parameter count.
+[21:27:58] sscanf warning: Format specifier does not match parameter count.
+[21:27:59] sscanf warning: Format specifier does not match parameter count.
+[21:27:59] sscanf warning: Format specifier does not match parameter count.
+[21:28:00] sscanf warning: Format specifier does not match parameter count.
+[21:28:01] sscanf warning: Format specifier does not match parameter count.
+[21:28:01] sscanf warning: Format specifier does not match parameter count.
+[21:28:02] sscanf warning: Format specifier does not match parameter count.
+[21:28:02] sscanf warning: Format specifier does not match parameter count.
+[21:28:03] sscanf warning: Format specifier does not match parameter count.
+[21:28:03] sscanf warning: Format specifier does not match parameter count.
+[21:28:06] [chat] [Mortis_Grave]: ffff\
+[21:28:06] [debug] Run time error 5: "Invalid memory access"
+[21:28:06] [debug] AMX backtrace:
+[21:28:06] [debug] #0 00000024 in public OnPlayerText () from PlayerModeServer.amx
+[21:29:08] [part] Mortis_Grave has left the server (0:1)

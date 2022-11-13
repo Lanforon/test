@@ -9,10 +9,10 @@
 #include <crashdetect>
 
 
-#define SQL_HOST "localhost"
-#define SQL_USER "root"
-#define SQL_PASS ""
-#define SQL_BASE "login"
+#define     SQL_HOST "localhost"
+#define     SQL_USER "gs181159"
+#define     SQL_PASS "yBzlvzgGAYcV"
+#define     SQL_BASE "gs181159"
 
 #define SPD ShowPlayerDialog
 #define SCM SendClientMessage
@@ -24,9 +24,6 @@
 
 
 //================================= Переменные =================================
-//----------------------------------- Пикапы -----------------------------------
-new pickups[2];
-//------------------------------------------------------------------------------
 //----------------------------------- Мусорка ----------------------------------
 new MySQL:dbHandle;
 //------------------------------------------------------------------------------
@@ -52,7 +49,7 @@ enum player
 	LVL,
 	EXP,
 	MINS,
-	
+
 }
 new player_info[MAX_PLAYERS][player];
 enum DIALOGS
@@ -69,9 +66,6 @@ main() return true;
 
 public OnGameModeInit()
 {
-    DisableInteriorEnterExits();
-	LoadInteriors();
-	LoadPickups();
 	ConnectSQL();
 	return 1;
 }
@@ -90,27 +84,6 @@ stock ConnectSQL()
  	return 1;
 }
 
-stock LoadInteriors(playerid)
-{
-	#include <interiors\Police Departament.inc>
-	#include <mapping\AllMapping.inc>
-}
-
-stock RemoveStandartObject(playerid)
-{
-    RemoveBuildingForPlayer(playerid, 4024, 1479.8672, -1790.3984, 56.0234, 0.25);
-	RemoveBuildingForPlayer(playerid, 1527, 1448.2344, -1755.8984, 14.5234, 0.25);
-	RemoveBuildingForPlayer(playerid, 4002, 1479.8672, -1790.3984, 56.0234, 0.25);
-	RemoveBuildingForPlayer(playerid, 5024, 1748.8438, -1883.0313, 14.1875, 0.25);
-	RemoveBuildingForPlayer(playerid, 4983, 1961.0313, -1871.4063, 23.7734, 0.25);
-}
-
-stock LoadPickups()
-{
-    pickups[0] = CreatePickup(1318,23,1555.0691,-1675.5140,16.1953); // Пикап входа в LSPD
-	pickups[1] = CreatePickup(1318,23,16.9403,1513.0972,1086.0869); // Пикап выхода с LSPD
-}
-
 public OnGameModeExit()
 {
 	return 1;
@@ -123,15 +96,14 @@ public OnPlayerRequestClass(playerid, classid)
 
 public OnPlayerConnect(playerid)
 {
-
 	GetPlayerName(playerid, player_info[playerid][NAME], MAX_PLAYER_NAME);
 	static const fmt_query[] = "SELECT `password` FROM `usets` WHERE `name` = '%s'";
 	new query[sizeof(fmt_query)+(-2+MAX_PLAYER_NAME)];
 	format(query, sizeof(query), fmt_query, player_info[playerid][NAME]);
 	mysql_tquery(dbHandle, query, "CheckRegistration", "i", playerid);
-	
-	TogglePlayerSpectating(playerid, 1);
-	RemoveStandartObject(playerid);
+
+	//TogglePlayerSpectating(playerid, 1);
+
 	SetPVarInt(playerid, "WrongPassword", 3);
 	return 1;
 }
@@ -146,7 +118,7 @@ public CheckRegistration(playerid)
 	    cache_get_value_name(0, "password", player_info[playerid][PASSWORD], 64);
 	    print(player_info[playerid][PASSWORD]);
 	    ShowLogin(playerid);
-	} 
+	}
 	else ShowRegistration(playerid);
 }
 
@@ -183,15 +155,7 @@ public OnPlayerDisconnect(playerid, reason)
 }
 
 public OnPlayerSpawn(playerid)
-{   if(SetPVarInt(playerid, "logged") == 0)
-	{
-	    SCM(playerid, COLOR_RED, "[Ошибка]{FFFFFF} Для игры на сервере нужно авторизоваться!");
-		Kick(playerid);
-	}
-	SetPlayerPos(playerid, 1760.7123,-1895.0684,13.5611);
-	SetPlayerSkin(playerid, player_info[playerid][SKIN]);
-	SetPlayerFacingAngle(playerid, 269.9680);
-	SetCameraBehindPlayer(playerid);
+{
 	return 1;
 }
 
@@ -212,10 +176,15 @@ public OnVehicleDeath(vehicleid, killerid)
 
 public OnPlayerText(playerid, text[])
 {
-	new string[144];
- 	if(strlen(text) < 113)
+	if(GetPVarInt(playerid, "logged") == 0)
 	{
- 		format(string, sizeof(string), "%s[%d]: %s", player_info[playerid][NAME], playerid, text);
+	    SCM(playerid, COLOR_RED, "[Ошибка] {FFFFFF}Для написания сообщения нужно авторизоваться!");
+		return Kick(playerid);
+	}
+	new string[144];
+	if(strlen(text) < 113)
+	{
+		format(string, sizeof(string), "%s[%d]: %d", player_info[playerid][NAME], playerid, text);
 		ProxDetector(20.0, playerid, string, COLOR_WHITE, COLOR_WHITE, COLOR_WHITE, COLOR_WHITE, COLOR_WHITE);
 		SetPlayerChatBubble(playerid, text, COLOR_WHITE, 7500);
 		if(GetPlayerState(playerid) == PLAYER_STATE_ONFOOT)
@@ -223,11 +192,11 @@ public OnPlayerText(playerid, text[])
 		    ApplyAnimation(playerid, "PED", "IDLE_chat", 4.1, 0, 1, 1, 1, 1);
 		    SetTimerEx("StopChatAnim", 3200, false, "d", playerid);
 		}
-		return 1;
- 	}
+	}
 	else
 	{
-	    return SCM(playerid, COLOR_RED, "Ваше сообщение слишком длинное!");
+	    SCM(playerid, COLOR_RED, "Ваше сообщение слишком длинное!");
+	    return 0;
 	}
 	return 1;
 }
@@ -300,22 +269,6 @@ public OnPlayerObjectMoved(playerid, objectid)
 
 public OnPlayerPickUpPickup(playerid, pickupid)
 {
-    if(pickupid == pickups[0]) // вход
-	{
-	    SetPlayerInterior(playerid, 1);
-		SetPlayerPos(playerid, 17.0409,1510.6080,1086.0869);// это само появление в интерьере после телепорта
-		SetCameraBehindPlayer(playerid);
-		SetPlayerFacingAngle(playerid, 175.7587);
-		SetPlayerVirtualWorld(playerid, 0); //это ид виртуально мира
-	}
-	if(pickupid == pickups[1]) // выход
-	{
-		SetPlayerInterior(playerid, 0); // ид интерьера , тут 0 так как мы выходим на улицу
-		SetPlayerPos(playerid, 1552.7452,-1675.5271,16.1953);//координаты телепорта
-		SetCameraBehindPlayer(playerid);
-		SetPlayerFacingAngle(playerid, 96.3799);
-		SetPlayerVirtualWorld(playerid, 0); // ид виртуал мира ну так как выход то тогда 0 !
-	}
 	return 1;
 }
 
@@ -361,29 +314,7 @@ public OnRconLoginAttempt(ip[], password[], success)
 
 public OnPlayerUpdate(playerid)
 {
-    if(GetPlayerMoney(playerid) != player_info[playerid][MONEY])
-	{
-		ResetPlayerMoney(playerid);
-		GivePlayerMoney(playerid, player_info[playerid][MONEY]);
-	}
 	return 1;
-}
-
-public OnPlayerClickMap(playerid, Float:fX, Float:fY, Float:fZ)
-{
-        if(player_info[playerid][ADMIN] >= 4)
-        {
-                new vehicleid = GetPlayerVehicleID(playerid);
-                if(vehicleid > 0 && GetPlayerState(playerid) == PLAYER_STATE_DRIVER)
-                {
-                        SetVehiclePos(vehicleid, fX, fY, fZ);
-                }
-                else
-                {
-                        SetPlayerPos(playerid, fX, fY, fZ); 
-                }
-        }
-        return 1;
 }
 
 public OnPlayerStreamIn(playerid, forplayerid)
@@ -410,7 +341,6 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 {
 	switch(dialogid)
 	{
-//============================= Диалог пароля (Регистрация) ==========================
 	    case DLG_REG:
 		{
 		    if(response)
@@ -446,9 +376,8 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				SPD(playerid, -1, 0, " ", " ", " ", " ");
 				return Kick(playerid);
 		    }
-		    
+
 		}
- //============================= Диалог email (Регистрация) ==========================
 		case DLG_REGEMAIL:
 		{
 			if(response)
@@ -487,7 +416,6 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				return Kick(playerid);
 		    }
 		}
-//============================= Диалог реферала (Регистрация) ==========================
 		case DLG_REFREG:
 		{
 		    if(response)
@@ -510,7 +438,6 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 					 "Мужской", "Женский");
 		    }
 		}
- //============================= Диалог выбора пола (Регистрация) ==========================
 		case DLG_SEX:
 		{
 		    new male[11] = {6, 78, 79, 134, 135, 137, 160, 112, 213, 230, 239};
@@ -520,7 +447,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			{
 				player_info[playerid][SKIN] = male[random(11)];
 				player_info[playerid][SEX] = 1;
-			} 
+			}
 		    else
 			{
 				player_info[playerid][SKIN] = woman[random(11)];
@@ -531,21 +458,20 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		    new date[13];
 		    format(date, sizeof(date), "%02d.%02.d.%d", Day, Month, Year);
 		    player_info[playerid][REGDATA] = date;
-		    
+
 		    new ip[16];
 		    GetPlayerIp(playerid, ip, sizeof(ip));
 		    player_info[playerid][IPDATA] = ip;
-		    
+
 		    static const fmt_query[] = "INSERT INTO `usets`(`name`, `password`, `email`, `ref`, `sex`, `skin`, `regdata`, `ipdata`) VALUES ('%s', '%s', '%s', '%d', '%d', '%d', '%s', '%s')";
 			new query[sizeof(fmt_query)+(-2+MAX_PLAYER_NAME)+(-2+64)+(-2+64)+(-2+8)+(-2+1)+(-2+3)+(-2+12)+(-2+15)];
 			format(query, sizeof(query), fmt_query, player_info[playerid][NAME], player_info[playerid][PASSWORD], player_info[playerid][EMAIL], player_info[playerid][REF], player_info[playerid][SEX], player_info[playerid][SKIN], player_info[playerid][REGDATA], player_info[playerid][IPDATA]);
 			mysql_query(dbHandle, query);
-			
+
 			static const fmt_query2[] = "SELECT * FROM `usets` WHERE `name` = '%s' AND `password` = '%s'";
 			format(query, sizeof(query), fmt_query2, player_info[playerid][NAME], player_info[playerid][PASSWORD]);
 			mysql_tquery(dbHandle, query, "PlayerLogin", "i", playerid);
 		}
-//============================= Диалог авторизации ==========================
 		case DLG_LOG:
 		{
 		    if(response)
@@ -581,7 +507,6 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 				return Kick(playerid);
 		    }
 		}
-//============================= Диалог выдачи команды ==========================
 		case 15444:
         {
             if(response)
@@ -598,23 +523,13 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
                   		{
 		                  	player_command[GetPVarInt(playerid, "CmdsID")][pKick]=1;
                   		}
-                  		SetCmdSettings(playerid);
 		            }
 				}
 			}
 		}
-		case 15445:
-		{
-			if(response)
-			{
-			}
-			else
-			{
-			}
-		}
 	}
-	return 1;
 }
+
 forward PlayerLogin(playerid);
 public PlayerLogin(playerid)
 {
@@ -622,21 +537,31 @@ public PlayerLogin(playerid)
 	cache_get_row_count(rows);
 	if(rows)
 	{
-	    cache_get_value_name(0, "name", player_info[playerid][NAME], 65);
 		cache_get_value_name_int(0, "id", player_info[playerid][ID]);
-		cache_get_value_name(0, "email", player_info[playerid][EMAIL], 65);
+		print(player_info[playerid][ID]);
+		cache_get_value_name(0, "email", player_info[playerid][EMAIL], 64);
+		print(player_info[playerid][EMAIL]);
 		cache_get_value_name_int(0, "ref", player_info[playerid][REF]);
+		print(player_info[playerid][REF]);
 		cache_get_value_name_int(0, "sex", player_info[playerid][SEX]);
+		print(player_info[playerid][SEX]);
 		cache_get_value_name_int(0, "skin", player_info[playerid][SKIN]);
-		cache_get_value_name(0, "regdata", player_info[playerid][REGDATA], 13);
-		cache_get_value_name(0, "ipdata", player_info[playerid][IPDATA], 16);
+		print(player_info[playerid][SKIN]);
+		cache_get_value_name(0, "regdata", player_info[playerid][REGDATA], 12);
+		print(player_info[playerid][REGDATA]);
+		cache_get_value_name(0, "ipdata", player_info[playerid][IPDATA], 15);
+		print(player_info[playerid][IPDATA]);
 		cache_get_value_name_int(0, "admin", player_info[playerid][ADMIN]);
-		cache_get_value_name_int(0, "money", player_info[playerid][MONEY]);
+		print(player_info[playerid][ADMIN]);
 		
-		
-		TogglePlayerSpectating(playerid, 0);
-		SetSpawnInfo(playerid, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+		//TogglePlayerSpectating(playerid, 0);
+		print("Спектатор выключен");
+		SetPVarInt(playerid, "logged", 1);
+		print("логгед равен 1");
+		SetSpawnInfo(playerid, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+		print("Спавн инфо выполнен");
 		SpawnPlayer(playerid);
+		print("заспавлен");
 	}
 	return 1;
 }
@@ -695,69 +620,52 @@ public SetCmdSettings(playerid)
     return SPD(playerid, 15444, DIALOG_STYLE_LIST, "Выбирите команду", cfgstring, "Выбор", "Отмена");
 }
 
-CMD:mm(playerid, params[])
+CMD:Kick(playerid, params[])
 {
-	new string[94];
-	new string2[8];
-	if(player_info[playerid][SEX] == 1) string2 = "Мужской";
-	else string2 = "Женский";
-	format(string, sizeof(string), "Имя: %s\n\
-		Пол: %s\n\
-		Денег на руках: %d\n\
-		Уровень:  Разработка\n\
-		EXP: в разработке", player_info[playerid][NAME], string2, player_info[playerid][MONEY]);
-    return SPD(playerid, 15445, DIALOG_STYLE_MSGBOX, "Статистика", string, "Ок", "Закрыть");
-}
-
-CMD:kick(playerid, params[])
-{
+    if(player_info[playerid][ADMIN] < 4)
+	{
+      	return false;
+	}
  	if(player_command[playerid][pKick] <= 0)
 	{
-	    return SCM(playerid, COLOR_RED, "[Ошибка]{FFFFFF} У вас нету прав на использование данной команды!");
+     	return SCM(playerid, COLOR_RED, "[Ошибка]{FFFFFF}У вас нету прав на использование данной команды!");
 	}
 	else if(sscanf(params,"i", params[0]))
  	{
-  	 	return SCM(playerid, COLOR_RED, "[Ошибка]{FFFFFF} /kick [id]");
+  	 	return SCM(playerid, COLOR_RED, "[Ошибка]{FFFFFF}/kick [id]");
 	}
 	else
 	{
      	return Kick(params[0]);
 	}
+	return 1;
 }
 
 CMD:setcmd(playerid, params[])
 {
-    
-	if(sscanf(params,"i", params[0]))
+	if(player_info[playerid][ADMIN] >= 4)
 	{
-		return SCM(playerid, COLOR_RED, "[Ошибка]{FFFFFF} /setcmd [id]");
+	    if(sscanf(params,"i", params[0]))
+		{
+			return SCM(playerid, COLOR_RED, "[Ошибка]{FFFFFF} /setcmd [id]");
+		}
+		else
+		{
+		    SetPVarInt(playerid,"CmdsID",params[0]);
+		    SetCmdSettings(playerid);
+		} 
 	}
 	else
 	{
-		SetPVarInt(playerid,"CmdsID",params[0]);
-	    SetCmdSettings(playerid);
-	} 
-	
-	return 1;
-}
+	    return SCM(playerid, COLOR_RED, "У вас нету прав на использование данной команды!");
+	}
 
-CMD:veh(playerid, params[])
-{
-    new Float:pos[4];
-    /*Проверка на администратора*/
-    if(sscanf(params,"d", params[0], params[1], params[2])) return SendClientMessage(playerid, -1, "{C20000}[Ошибка] Используй: /veh [ID транспорта] [Цвет 1] [Цвет 2]");//Проверяем правильно игрок ввел команду
-    if(params[0] < 400 || params[0] > 611)  return SendClientMessage(playerid, -1, "{C20000}[Ошибка]Вы ввели неверный ID авто!");//Проверяем правильный ID ввел игрок
-    new col1 = params[1];
-    new col2 = params[2];
-    DestroyVehicle(GetPVarInt(playerid, "vehicleadmin"));//Удаляем старое авто если оно есть
-    DeletePVar(playerid,"vehicleadmin");//Удаляем PVar
-    GetPlayerPos(playerid, pos[0], pos[1], pos[2]);//Узнаем координаты игрока
-    GetPlayerFacingAngle(playerid, pos[3]);//Узнаем угол поворота игрока
-    new caradmin = CreateVehicle(params[0], pos[0], pos[1], pos[2], pos[3], col1, col2, -1);
-    LinkVehicleToInterior(caradmin, GetPlayerInterior(playerid));//Ставим авто в интерьер
-    SetVehicleVirtualWorld(caradmin, GetPlayerVirtualWorld(playerid));//Ставим авто в виртуальный мир
-    PutPlayerInVehicle(playerid, caradmin, 0);//Сажаем игрока в авто
-    SetPVarInt(playerid,"vehicleadmin", caradmin);//Создаем PVar что бы потом удалить
-    SendClientMessage(playerid, -1, "{BABABA}[Оповещение] Авто было выдано!");//Пишем игроку в чат что авто было выдано
-    return 1;//Команда выполнилась
+	return true;
+
+    //if(player_info[playerid][ADMIN] < 4) return false;
+    //if(sscanf(params,"u", params[0])) return SendClientMessage(playerid, COLOR_RED, !"[Ошибка]{FFFFFF} /setcmd [id]");
+    //if(!IsPlayerLogged[params[0]])return false;
+    //SetPVarInt(playerid,"CmdsID",params[0]);
+
+    //return true;
 }
